@@ -169,46 +169,60 @@ def extraction(review, pos_words, neg_words, pronouns):
 
 if __name__ == '__main__':
     pass
-    run_tests()
+    # run_tests()
 
-    # review_file_pos = pd.read_csv('assignment2/hotelPosT-train.txt', delimiter='\t', 
-    #                               index_col=None, header=None).to_numpy()
-    # review_file_neg = pd.read_csv('assignment2/hotelNegT-train.txt', delimiter='\t', 
-    #                               index_col=None, header=None).to_numpy()
-    # pos_words = pd.read_csv('assignment2/positive-words.txt', index_col=None, header=None)
-    # pos_words = [f'_{w[0]}_' for w in pos_words.to_numpy()]
-    # neg_words = pd.read_csv('assignment2/negative-words.txt', index_col=None, header=None)
-    # neg_words = [f'_{w[0]}_' for w in neg_words.to_numpy()]
-    # pronouns = pd.read_csv('assignment2/pronouns.txt', index_col=None, header=None)
-    # pronouns = [f'_{w[0]}_' for w in pronouns.to_numpy()]
+    # get reviews
+    review_file_pos = np.loadtxt('datasets/assignment2/hotelPosT-train.txt', 
+                                 delimiter='\t', dtype='str', encoding="utf8")
+    review_file_neg = np.loadtxt('datasets/assignment2/hotelNegT-train.txt', 
+                                 delimiter='\t', dtype='str', encoding="utf8")
 
-    # reviews_pos = review_file_pos[:, 1]
-    # extracts_pos = [extraction(rev, pos_words, neg_words, pronouns) for rev in reviews_pos]
-    # vectors_pos = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in extracts_pos]
-    # # print(vectors_pos)
-    # reviews_neg = review_file_neg[:, 1]
-    # extracts_neg = [extraction(rev, pos_words, neg_words, pronouns) for rev in reviews_neg]
-    # vectors_neg = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in extracts_neg]
-    # # print(vectors_neg)
+    # get word semantics
+    pos_words = np.loadtxt('datasets/assignment2/positive-words.txt', 
+                           delimiter='\n', dtype='str')
+    neg_words = np.loadtxt('datasets/assignment2/negative-words.txt', 
+                           delimiter='\n', dtype='str')
+    pronouns = np.loadtxt('datasets/assignment2/pronouns.txt', 
+                           delimiter='\n', dtype='str')
+    pos_words = [f'_{w}_' for w in pos_words]
+    neg_words = [f'_{w}_' for w in neg_words]    
+    pronouns = [f'_{w}_' for w in pronouns]
 
-    # vectors = np.vstack([vectors_pos, vectors_neg]).tolist()
-    # # print(vectors)
-    # review_ids = np.hstack([list(review_file_pos[:,0]), list(review_file_neg[:,0])])
-    # # print(review_ids)
+    # extract positive and negative words
+    reviews_pos = review_file_pos[:, 1]
+    extracts_pos = [extraction(rev, pos_words, neg_words, pronouns) for rev in reviews_pos]
+    vectors_pos = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in extracts_pos]
+    # print(vectors_pos)
+    reviews_neg = review_file_neg[:, 1]
+    extracts_neg = [extraction(rev, pos_words, neg_words, pronouns) for rev in reviews_neg]
+    vectors_neg = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in extracts_neg]
+    # print(vectors_neg)
 
-    # b = 1
-    # with open('assignment2/pham-son-assgn2-part1.csv', 'w')as f:
-    #     for id, vec in zip(review_ids, vectors):
-    #         f.write(f'{id}, {vec[0]}, {vec[1]}, {vec[2]}, {vec[3]}, {vec[4]}, {vec[5]}, {b}\n')
+    # concatenate positive and negative vectors
+    vectors = np.vstack([vectors_pos, vectors_neg]).tolist()
+    review_ids = np.hstack([list(review_file_pos[:,0]), list(review_file_neg[:,0])])
+    # print(vectors)
+    # print(review_ids)
 
-    # w = [0,0,0,0,0,0]
-    # reviews_file = pd.read_csv('assignment2/pham-son-assgn2-part1.csv', delimiter=',', 
-    #                               index_col=None, header=None)
-    # print(reviews_file)
-    # ids = reviews_file.iloc[:,0].tolist()
-    # vectors = reviews_file.iloc[:,1:-1].to_numpy()
-    # bias = reviews_file.iloc[:,-1].to_numpy()
-    # # print(bias)
+    # assuming bias=1, generate csv file of results
+    b = 1
+    with open('datasets/assignment2/pham-son-assgn2-part1.csv', 'w')as f:
+        for id, vec in zip(review_ids, vectors):
+            f.write(f'{id},{int(vec[0])},{int(vec[1])},{int(vec[2])},'
+                    f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{b}\n')
+
+    w = [0,0,0,0,0,0]
+    reviews_file = np.loadtxt('datasets/assignment2/pham-son-assgn2-part1.csv', 
+                                 delimiter=',', dtype='str', encoding="utf8")
+    # print(np.shape(reviews_file))
+
+    ids = reviews_file[:,0]
+    # print(ids)
+    vectors = reviews_file[:,1:-1]
+    bias = reviews_file[:,-1]
+    # print(vectors)
+    # print(bias)
+    
     # nu = 1
     # gold_label = 1
     # stoch = stochastic_grad(vectors[0], gold_label, w, bias[0], nu)
