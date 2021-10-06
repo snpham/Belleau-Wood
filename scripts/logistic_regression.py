@@ -197,7 +197,7 @@ if __name__ == '__main__':
     review_file_neg = np.loadtxt('datasets/assignment2/hotelNegT-train.txt', 
                                  delimiter='\t', dtype='str', encoding="utf8")
     # TEST SET: 
-    test_file = np.loadtxt('datasets/assignment2/testset.txt', 
+    test_file = np.loadtxt('datasets/assignment2/HW2-testset.txt', 
                                  delimiter='\t', dtype='str', encoding="utf8")
 
     # get word semantics
@@ -276,7 +276,7 @@ if __name__ == '__main__':
 
     # generate training and testing set
     rands = np.random.rand(vectors_w_bias.shape[0])
-    splitpoint = rands < np.percentile(rands, 80)
+    splitpoint = rands < np.percentile(rands, 100)
     train_x = np.array(vectors_w_bias[splitpoint])
     train_y = np.array(ids[splitpoint])
     dev_x = np.array(vectors_w_bias[~splitpoint])
