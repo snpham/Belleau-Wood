@@ -196,8 +196,9 @@ if __name__ == '__main__':
                                  delimiter='\t', dtype='str', encoding="utf8")
     review_file_neg = np.loadtxt('datasets/assignment2/hotelNegT-train.txt', 
                                  delimiter='\t', dtype='str', encoding="utf8")
-    # test_file = np.loadtxt('datasets/assignment2/hotelNegT-train.txt', 
-    #                              delimiter='\t', dtype='str', encoding="utf8")
+    # TEST SET: 
+    test_file = np.loadtxt('datasets/assignment2/testset.txt', 
+                                 delimiter='\t', dtype='str', encoding="utf8")
 
     # get word semantics
     pos_words = np.loadtxt('datasets/assignment2/positive-words.txt', 
@@ -218,10 +219,11 @@ if __name__ == '__main__':
     reviews_neg = review_file_neg[:, 1]
     extracts_neg = [extraction(rev, pos_words, neg_words, pronouns) for rev in reviews_neg]
     vectors_neg = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in extracts_neg]
-    # test_reviews = test_file[:, 1]
-    # test_extracts = [extraction(rev, pos_words, neg_words, pronouns) for rev in test_reviews]
-    # test_vectors = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in test_extracts]
-    # test_ids = list(test_file[:,0])
+    test_reviews = test_file[:, 1]
+    # TEST SET: 
+    test_extracts = [extraction(rev, pos_words, neg_words, pronouns) for rev in test_reviews]
+    test_vectors = [[ex['x1'], ex['x2'], ex['x3'], ex['x4'], ex['x5'], lnw] for ex, lnw in test_extracts]
+    test_ids = list(test_file[:,0])
 
     # concatenate positive and negative vectors
     vectors = np.vstack([vectors_pos, vectors_neg]).tolist()
@@ -231,24 +233,32 @@ if __name__ == '__main__':
     b = 1
     with open('datasets/assignment2/pham-son-assgn2-part1.csv', 'w')as f:
         for id, vec in zip(review_ids, vectors):
+            if id in review_file_pos[:, 0]:
+                bs = 1
+            elif id in review_file_neg[:, 0]:
+                bs = 0
             f.write(f'{id},{int(vec[0])},{int(vec[1])},{int(vec[2])},'
-                    f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{b}\n')
+                    f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{bs}\n')
 
     reviews_file = np.loadtxt('datasets/assignment2/pham-son-assgn2-part1.csv', 
                               delimiter=',', encoding="utf8", 
                               dtype='str')
     # print(reviews_file)
 
-    # # do same for test set
-    # with open('datasets/assignment2/pham-son-assgn2-part1-testset.csv', 'w')as f:
-    #     for id, vec in zip(test_ids, test_vectors):
-    #         f.write(f'{id},{int(vec[0])},{int(vec[1])},{int(vec[2])},'
-    #                 f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{b}\n')
+    # TEST SET: do same for test set
+    with open('datasets/assignment2/pham-son-assgn2-part1-testset.csv', 'w')as f:
+        for id, vec in zip(test_ids, test_vectors):
+            if id in review_file_pos[:, 0]:
+                bs = 1
+            elif id in review_file_neg[:, 0]:
+                bs = 0
+            f.write(f'{id},{int(vec[0])},{int(vec[1])},{int(vec[2])},'
+                    f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{bs}\n')
 
-    # test_reviews_file = np.loadtxt('datasets/assignment2/pham-son-assgn2-part1-testset.csv', 
-    #                                delimiter=',', encoding="utf8", 
-    #                                dtype='str')
-    # # print(test_reviews_file)
+    test_reviews_file = np.loadtxt('datasets/assignment2/pham-son-assgn2-part1-testset.csv', 
+                                   delimiter=',', encoding="utf8", 
+                                   dtype='str')
+    # print(test_reviews_file)
 
     # get file ids and vectors
     ids = reviews_file[:,0]
@@ -258,11 +268,11 @@ if __name__ == '__main__':
     bias = reviews_file[:,-1].astype('float')
     vectors_w_bias = reviews_file[:,1:].astype('float')
 
-    # # TEST SET: get file ids and vectors
-    # test_ids = test_reviews_file[:,0]
-    # test_vectors = test_reviews_file[:,1:-1].astype('float')
-    # test_bias = test_reviews_file[:,-1].astype('float')
-    # test_vectors_w_bias = test_reviews_file[:,1:].astype('float')
+    # TEST SET: get file ids and vectors
+    test_ids = test_reviews_file[:,0]
+    test_vectors = test_reviews_file[:,1:-1].astype('float')
+    test_bias = test_reviews_file[:,-1].astype('float')
+    test_vectors_w_bias = test_reviews_file[:,1:].astype('float')
 
     # generate training and testing set
     rands = np.random.rand(vectors_w_bias.shape[0])
@@ -271,8 +281,9 @@ if __name__ == '__main__':
     train_y = np.array(ids[splitpoint])
     dev_x = np.array(vectors_w_bias[~splitpoint])
     dev_y = np.array(ids[~splitpoint])
-    # test_x = np.array(test_vectors_w_bias)
-    # test_y = np.array(test_ids)
+    # TEST SET: 
+    test_x = np.array(test_vectors_w_bias)
+    test_y = np.array(test_ids)
 
 
     # # test to make sure split works
@@ -294,7 +305,8 @@ if __name__ == '__main__':
     theta = [0,0,0,0,0,0,0]
     thetas = []
     nu = 1
-    for k in range(0, 100):
+    why = 1
+    for k in range(0, 2000):
         random_idx = np.random.choice(train_x.shape[0], 
                                       size=1, replace=True)
         random_sample = train_x[random_idx, :][0]                          
@@ -306,34 +318,33 @@ if __name__ == '__main__':
         theta = stochastic_grad_constb(x=random_sample[:-1], 
                                        y=y_true, 
                                        w=theta[:-1], 
-                                       b=random_sample[-1], 
+                                       b=why, 
                                        nu=nu)
 
-    # run dev set
-    random_idx = np.random.choice(dev_x.shape[0], 
-                                  size=1, replace=True)
-    random_sample = dev_x[random_idx, :][0]   
-    if dev_y[random_idx][0] in pos_ids:
-        y_true = 1
-    elif dev_y[random_idx][0] in neg_ids:
-        y_true = 0
-    print(theta)
-    print(random_idx, random_sample)
-    sigma = sigmoid(z_value(w=theta[:-1], x=random_sample[:-1], b=random_sample[-1]))
-    print(sigma)
+    # # run dev set
+    # random_idx = np.random.choice(dev_x.shape[0], 
+    #                               size=1, replace=True)
+    # random_sample = dev_x[random_idx, :][0]   
+    # if dev_y[random_idx][0] in pos_ids:
+    #     y_true = 1
+    # elif dev_y[random_idx][0] in neg_ids:
+    #     y_true = 0
+    # print(theta)
+    # print(random_idx, random_sample)
+    # sigma = sigmoid(z_value(w=theta[:-1], x=random_sample[:-1], b=why))
+    # print(sigma)
 
-
-
-
+    # TEST SET: 
     ## for testing final set, make sure to "unsplit" the training data
-    random_idx = np.random.choice(test_x.shape[0], 
-                                  size=1, replace=True)
-    random_sample = test_x[random_idx, :][0]   
-    if test_y[random_idx][0] in pos_ids:
-        y_true = 1
-    elif test_y[random_idx][0] in neg_ids:
-        y_true = 0
-    print(theta)
-    print(random_idx, random_sample)
-    sigma = sigmoid(z_value(w=theta[:-1], x=random_sample[:-1], b=random_sample[-1]))
-    print(sigma)
+    with open('datasets/assignment2/pham-son-assgn2-out.txt', 'w')as f:
+        for id, review_vec in zip(test_y, test_x):
+            sigma = sigmoid(z_value(w=theta[:-1], x=review_vec[:-1], b=why))
+            if sigma < 0.5:
+                classf = 'NEG'
+            elif sigma >= 0.5:
+                classf = 'POS'
+            f.write(f'{id}\t{classf}\n')
+
+
+
+
