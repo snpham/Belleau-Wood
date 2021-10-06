@@ -4,23 +4,23 @@ from collections import Counter
 import re
 
 
+def z_value(w, x, b):
+    return np.dot(w, x) + b
+
+
 def sigmoid(z):
     # print('z value:', z)
     return 1 / (1+ np.exp(-z))
 
 
-def z_value(w, x, b):
-    return np.dot(w, x) + b
+def cross_entropy_loss(y_est, y):
+    return -(y * np.log(y_est) + (1-y)*np.log(1-y_est))
 
 
 def cross_entropy(w, x, b, y):
     sigma = sigmoid(z_value(w, x, b))
     L_CE = -(y * np.log(sigma) + (1-y)*np.log(1-sigma))
     return L_CE
-
-
-def cross_entropy_loss(y_est, y):
-    return -(y * np.log(y_est) + (1-y)*np.log(1-y_est))
 
 
 def gradient(x, y, w, b):
@@ -211,17 +211,29 @@ if __name__ == '__main__':
             f.write(f'{id},{int(vec[0])},{int(vec[1])},{int(vec[2])},'
                     f'{int(vec[3])},{int(vec[4])},{round(vec[5],2)},{b}\n')
 
-    w = [0,0,0,0,0,0]
     reviews_file = np.loadtxt('datasets/assignment2/pham-son-assgn2-part1.csv', 
-                                 delimiter=',', dtype='str', encoding="utf8")
-    # print(np.shape(reviews_file))
+                              delimiter=',', encoding="utf8", 
+                              dtype='str')
+    # print(reviews_file)
+
+    # print(reviews_file)
+
 
     ids = reviews_file[:,0]
+    vectors = reviews_file[:,1:-1].astype('float')
+    bias = reviews_file[:,-1].astype('float')
+    vectors_w_bias = reviews_file[:,1:].astype('float')
     # print(ids)
-    vectors = reviews_file[:,1:-1]
-    bias = reviews_file[:,-1]
+    # print(review_file_pos[:,0])
+    pos_ids = np.arange(0, len(reviews_pos))
+    neg_ids = np.arange(len(reviews_pos), len(reviews_file))
+    # print(len(reviews_pos), len(reviews_file))
+    # print(pos_ids)
+    # print(neg_ids)
     # print(vectors)
     # print(bias)
+    # print(vectors_w_bias)
+    # exit()
     
     # nu = 1
     # gold_label = 1
@@ -230,3 +242,29 @@ if __name__ == '__main__':
     # stoch = stochastic_grad(vectors[0], gold_label, stoch[:-1], stoch[-1], nu)
     # print(stoch)
     
+    theta = 0
+    # w = [0,0,0,0,0,0]
+    np.random.seed(42)
+    random_indices = np.random.choice(vectors_w_bias.shape[0], 
+                                      size=len(vectors_w_bias), replace=False)
+    # print(random_indices)
+    random_samples = vectors_w_bias[random_indices, :]
+    # print(random_samples)
+
+    theta = [0,0,0,0,0,0,0]
+    thetas = []
+    nu = 1
+    
+    for k in range(0, 2):
+        samp = np.random.choice(vectors_w_bias, size=1, replace=False)
+        print(samp)
+    # for samp, idx in zip(random_samples, random_indices):
+    #     if idx in pos_ids:
+    #         y_true = 1
+    #     elif idx in neg_ids:
+    #         y_true = 0
+        
+    #     theta = stochastic_grad(x=samp[:-1], y=y_true, w=theta[:-1], b=samp[-1], nu=1)
+    #     thetas.append(theta)
+
+    #     print(theta)
