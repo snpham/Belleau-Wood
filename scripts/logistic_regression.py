@@ -41,8 +41,16 @@ def update_weight(w, b, nu, grad):
 
 def stochastic_grad(x, y, w, b, nu):
     grad = gradient(x, y, w, b)
+    # print(grad)
     return np.subtract(np.hstack((w, b)), nu*grad)
-    
+
+
+def stochastic_grad_constb(x, y, w, b, nu):
+    grad = gradient(x, y, w, b)
+    # print(grad)
+    return np.subtract(np.hstack((w, b)), nu*np.hstack([grad[:-1], b]))
+
+
 
 def softmax(z):
     """requires z to be a vector with a value for each in the 
@@ -53,20 +61,21 @@ def softmax(z):
 
 
 def run_tests():
-    # testing sigmoid
-    w = np.array([2.5, -5.0, -1.2, 0.5, 2.0, 0.7])
-    x = np.array([3, 2, 1, 3, 0, 4.15])
-    b = 0.1
-    P_pos = sigmoid(z=z_value(w, x, b))
-    print(z_value(w, x, b))
-    P_neg = 1 - P_pos
-    assert np.allclose([P_pos, P_neg], [0.69104, 0.30895], rtol=1e-2)
+
+    # # testing sigmoid
+    # w = np.array([2.5, -5.0, -1.2, 0.5, 2.0, 0.7])
+    # x = np.array([3, 2, 1, 3, 0, 4.15])
+    # b = 0.1
+    # P_pos = sigmoid(z=z_value(w, x, b))
+    # print(z_value(w, x, b))
+    # P_neg = 1 - P_pos
+    # assert np.allclose([P_pos, P_neg], [0.69104, 0.30895], rtol=1e-2)
 
 
-    y = 1
-    c_ent = cross_entropy(w, x, b, y)
-    print(c_ent)
-    assert np.allclose(c_ent, 0.369, rtol=1e-2)
+    # y = 1
+    # c_ent = cross_entropy(w, x, b, y)
+    # print(c_ent)
+    # assert np.allclose(c_ent, 0.369, rtol=1e-2)
 
     
     # testing gradient and stochastic gradient
@@ -80,63 +89,66 @@ def run_tests():
 
     stoch = stochastic_grad(x, y, w, b, nu)
     assert np.allclose(stoch, [0.15, 0.1, 0.05], rtol=1e-2 )
+    print(stoch)
+    stoch = stochastic_grad_constb(x, y, w, b, nu)
+    print(stoch)
 
 
-    # testing softmax
-    z = [0.6, 1.1, -1.5, 1.2, 3.2, -1.1]
-    sm = softmax(z)
-    assert np.allclose(sm, 
-        [0.05482, 0.09039, 0.006713, 0.0998, 0.7381, 0.01001], rtol=1e-2)
+    # # testing softmax
+    # z = [0.6, 1.1, -1.5, 1.2, 3.2, -1.1]
+    # sm = softmax(z)
+    # assert np.allclose(sm, 
+    #     [0.05482, 0.09039, 0.006713, 0.0998, 0.7381, 0.01001], rtol=1e-2)
 
 
-    # test from lecture 9/21 - not sure how he got updated weights
-    w = np.array([2.5, -5.0, -1.2, 0.5, 2.0, 0.7])
-    x = np.array([3, 2, 1, 3, 0, 4.15])
-    b = 0.1
-    y = 1
-    P_pos = sigmoid(z=z_value(w, x, b))
-    assert np.allclose(P_pos, 0.69104, rtol=1e-2)
-
-    grad = gradient(x, y, w, b)
-    assert np.allclose(grad, [-0.9268, -0.6179, -0.3089, -0.9268, -0., -1.282, -0.3089], rtol=1e-2)
-
-    nu = 1
-    w_new = update_weight(w, b, nu, grad)
-    assert np.allclose(w_new, [3.426, -4.382, -0.891, 1.426, 2., 1.982, 0.408], rtol=1e-2)
-    print(w_new[:-1])
-    z = z_value(w=w_new[:-1], x=x, b=b)
-    sig = sigmoid(z=z)
-    print(sig)
-
-    # test from lecture 9/21
-    w = np.array([0., 0., 0., 0., 0., 0.])
-    x = np.array([3, 2, 1, 3, 0, 4.15])
-    b = 0.1
-    y = 1
-    P_pos = sigmoid(z=z_value(w, x, b))
-    assert np.allclose(P_pos, 0.5249, rtol=1e-2)
+    # # test from lecture 9/21 - not sure how he got updated weights
+    # w = np.array([2.5, -5.0, -1.2, 0.5, 2.0, 0.7])
+    # x = np.array([3, 2, 1, 3, 0, 4.15])
+    # b = 0.1
+    # y = 1
+    # P_pos = sigmoid(z=z_value(w, x, b))
+    # assert np.allclose(P_pos, 0.69104, rtol=1e-2)
 
     # grad = gradient(x, y, w, b)
-    # # assert np.allclose(grad, [-0.9268, -0.6179, -0.3089, -0.9268, -0., -1.282, -0.3089], rtol=1e-2)
-    # print(grad)
+    # assert np.allclose(grad, [-0.9268, -0.6179, -0.3089, -0.9268, -0., -1.282, -0.3089], rtol=1e-2)
+
     # nu = 1
     # w_new = update_weight(w, b, nu, grad)
-    # # assert np.allclose(w_new, [3.426, -4.382, -0.891, 1.426, 2., 1.982, 0.408], rtol=1e-2)
+    # assert np.allclose(w_new, [3.426, -4.382, -0.891, 1.426, 2., 1.982, 0.408], rtol=1e-2)
     # print(w_new[:-1])
     # z = z_value(w=w_new[:-1], x=x, b=b)
     # sig = sigmoid(z=z)
     # print(sig)
 
-
-    # x = [-3, 1, 4, 1]
-    # w = [1, 1, 1, 1]
+    # # test from lecture 9/21
+    # w = np.array([0., 0., 0., 0., 0., 0.])
+    # x = np.array([3, 2, 1, 3, 0, 4.15])
+    # b = 0.1
     # y = 1
-    # b = 0
-    # grad = gradient(x, y, w, b)
-    # print(grad)
+    # P_pos = sigmoid(z=z_value(w, x, b))
+    # assert np.allclose(P_pos, 0.5249, rtol=1e-2)
 
-    l_ce = cross_entropy_loss(y_est=0.4, y=1)
-    print(l_ce)
+    # # grad = gradient(x, y, w, b)
+    # # # assert np.allclose(grad, [-0.9268, -0.6179, -0.3089, -0.9268, -0., -1.282, -0.3089], rtol=1e-2)
+    # # print(grad)
+    # # nu = 1
+    # # w_new = update_weight(w, b, nu, grad)
+    # # # assert np.allclose(w_new, [3.426, -4.382, -0.891, 1.426, 2., 1.982, 0.408], rtol=1e-2)
+    # # print(w_new[:-1])
+    # # z = z_value(w=w_new[:-1], x=x, b=b)
+    # # sig = sigmoid(z=z)
+    # # print(sig)
+
+
+    # # x = [-3, 1, 4, 1]
+    # # w = [1, 1, 1, 1]
+    # # y = 1
+    # # b = 0
+    # # grad = gradient(x, y, w, b)
+    # # print(grad)
+
+    # l_ce = cross_entropy_loss(y_est=0.4, y=1)
+    # print(l_ce)
 
 
 def extraction(review, pos_words, neg_words, pronouns):
@@ -242,29 +254,34 @@ if __name__ == '__main__':
     # stoch = stochastic_grad(vectors[0], gold_label, stoch[:-1], stoch[-1], nu)
     # print(stoch)
     
-    theta = 0
-    # w = [0,0,0,0,0,0]
-    np.random.seed(42)
-    random_indices = np.random.choice(vectors_w_bias.shape[0], 
-                                      size=len(vectors_w_bias), replace=False)
-    # print(random_indices)
-    random_samples = vectors_w_bias[random_indices, :]
-    # print(random_samples)
+
+    rands = np.random.rand(vectors_w_bias.shape[0])
+    splitpoint = rands < np.percentile(rands, 80)
+    train_x = np.array(vectors_w_bias[splitpoint]) # A 2D np.array of training examples, REPLACE
+    train_y = np.array(ids[splitpoint]) # A 1D np.array of training answers, REPLACE
+    test_x = np.array(vectors_w_bias[~splitpoint]) # A 2D np.array of testing examples, REPLACE
+    test_y = np.array(ids[~splitpoint]) # A 1D np.array of testing answers, REPLACE
+    print(len(train_x), len(train_y))
+    print(len(test_x), len(test_y))
 
     theta = [0,0,0,0,0,0,0]
     thetas = []
     nu = 1
-    
-    for k in range(0, 2):
-        samp = np.random.choice(vectors_w_bias, size=1, replace=False)
-        print(samp)
-    # for samp, idx in zip(random_samples, random_indices):
-    #     if idx in pos_ids:
-    #         y_true = 1
-    #     elif idx in neg_ids:
-    #         y_true = 0
-        
-    #     theta = stochastic_grad(x=samp[:-1], y=y_true, w=theta[:-1], b=samp[-1], nu=1)
-    #     thetas.append(theta)
+    for k in range(0, 100):
+        random_idx = np.random.choice(vectors_w_bias.shape[0], 
+                                        size=1, replace=True)
+        random_sample = vectors_w_bias[random_idx, :][0]                          
+        if random_idx in pos_ids:
+            y_true = 1
+        elif random_idx in neg_ids:
+            y_true = 0
 
-    #     print(theta)
+        theta = stochastic_grad_constb(x=random_sample[:-1], y=y_true, w=theta[:-1], b=random_sample[-1], nu=nu)
+
+    random_idx = np.random.choice(vectors_w_bias.shape[0], 
+                                        size=1, replace=True)
+    random_sample = vectors_w_bias[random_idx, :][0]   
+    print(theta)
+    print(random_idx, random_sample)
+    sigma = sigmoid(z_value(w=theta[:-1], x=random_sample[:-1], b=random_sample[-1]))
+    print(sigma)
