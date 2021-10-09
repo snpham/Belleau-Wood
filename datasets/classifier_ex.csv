@@ -1,0 +1,4 @@
+actual_class/predicted_class,cancer=yes,cancer=no,total
+cancer=yes,                  90,        210,      300
+cancer=no,                   140,       9560,     9700
+total,                       230,       9770,     10000
