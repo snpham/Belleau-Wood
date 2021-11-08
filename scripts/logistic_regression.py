@@ -75,6 +75,31 @@ def softmax(z):
     return [np.exp(zi)/sum_z for zi in z]
 
 
+def rss(x, y, w, b):
+    """residual sum of squares for linear regression
+    """
+    return sum((yi-(xi*wi+b))**2 for xi, yi, wi in zip(x,y, w))
+
+
+def tss(y):
+    """residual sum of squares for linear regression
+    """
+    y_avg = np.average(y)
+    return sum((yi-y_avg)**2 for yi in y)
+
+
+def r2(x, y, w, b):
+    return 1 - rss(x, y, w, b)/tss(y)
+
+
+def rss_ridge(x, y, w, b, lambd):
+    return rss(x, y, w, b) + lambd*sum(wi**2 for wi in w)
+
+
+def rss_lasso(x, y, w, b, lambd):
+    return rss(x, y, w, b) + lambd*sum(w)
+
+
 def run_tests():
 
     # testing sigmoid and cross entropy
@@ -325,10 +350,27 @@ def hotel_ratings_model():
 
 if __name__ == '__main__':
     pass
-    run_tests()
+    # run_tests()
 
     # hotel_ratings_model()
 
+    x = [1, 2, 3, 4, 5]
+    y = [1, 2, 4, 8, 11]
+    w = [2, 2, 2, 2, 2]
+    b = 1
+    rss_out = rss(x, y, w, b)
+    tss_out = tss(y)
+    r2_out = r2(x, y, w, b)
+    print(rss_out)
+    print(tss_out)
+    print(r2_out)
+    lambd = 0.1
+    rssridge_out = rss_ridge(x, y, w, b, lambd)
+    print(rssridge_out)
+    rsslasso_out = rss_lasso(x, y, w, b, lambd)
+    print(rsslasso_out)
 
 
-
+    w = [0.5, 1.3, 0.002, 3.9, 0.01]
+    ws = np.sum(w)
+    print(ws)
