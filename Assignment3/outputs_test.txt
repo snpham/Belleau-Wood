@@ -194,14 +194,14 @@
 17	GC	O
 18	-	O
 19	rich	O
-20	region	O
+20	region	I
 21	in	O
 22	p21	B
 23	promoter	I
 24	-	I
 25	83	I
 26	-	I
-27	54	O
+27	54	I
 28	bp	O
 29	relative	O
 30	to	O
@@ -327,7 +327,7 @@
 22	role	O
 23	in	O
 24	mediating	O
-25	Ras	B
+25	Ras	O
 26	signal	O
 27	transduction	O
 28	.	O
@@ -385,7 +385,7 @@
 2	levels	O
 3	of	O
 4	alpha2	B
-5	-	O
+5	-	I
 6	antiplasmin	I
 7	were	O
 8	also	O
@@ -489,7 +489,7 @@
 7	phosphorylated	O
 8	proteins	O
 9	that	O
-10	complexed	B
+10	complexed	O
 11	v	B
 12	-	I
 13	Src	I
@@ -579,9 +579,9 @@
 3	of	O
 4	the	O
 5	sMtCK	B
-6	genomic	O
-7	upstream	O
-8	sequences	O
+6	genomic	I
+7	upstream	I
+8	sequences	I
 9	reveals	O
 10	a	O
 11	typical	O
@@ -613,7 +613,7 @@
 37	the	O
 38	chloramphenicol	B
 39	acetyltransferase	I
-40	reporter	O
+40	reporter	I
 41	.	O
 
 1	The	O
@@ -670,17 +670,17 @@
 11	,	O
 12	the	O
 13	E1	B
-14	E	I
-15	-	I
-16	box	I
+14	E	O
+15	-	O
+16	box	O
 17	,	O
 18	located	O
 19	in	O
 20	the	O
 21	GAP	B
-22	-	I
-23	43	I
-24	promoter	I
+22	-	O
+23	43	O
+24	promoter	O
 25	region	O
 26	that	O
 27	modulates	O
@@ -693,14 +693,14 @@
 34	of	O
 35	the	O
 36	GAP	B
-37	-	I
-38	43	I
-39	gene	I
+37	-	O
+38	43	O
+39	gene	O
 40	depending	O
 41	on	O
 42	which	O
-43	E	O
-44	-	O
+43	E	B
+44	-	I
 45	box	I
 46	-	I
 47	binding	I
@@ -815,7 +815,7 @@
 
 1	Among	O
 2	mammalian	B
-3	HSFs	O
+3	HSFs	I
 4	,	O
 5	HSF1	B
 6	has	O
@@ -831,7 +831,7 @@
 16	heat	O
 17	-	O
 18	induced	O
-19	stress	B
+19	stress	O
 20	gene	O
 21	expression	O
 22	,	O
@@ -977,7 +977,7 @@
 4	of	O
 5	two	O
 6	rRNA	O
-7	fragments	O
+7	fragments	I
 8	whose	O
 9	genes	O
 10	are	O
@@ -1006,7 +1006,7 @@
 3	defect	O
 4	of	O
 5	pds1	O
-6	mutants	O
+6	mutants	I
 7	results	O
 8	from	O
 9	a	O
@@ -1018,9 +1018,9 @@
 15	occurs	O
 16	around	O
 17	the	O
-18	G1	O
+18	G1	B
 19	/	O
-20	S	O
+20	S	I
 21	boundary	O
 22	about	O
 23	the	O
@@ -1077,7 +1077,7 @@
 7	effective	O
 8	beta	B
 9	-	O
-10	adrenoceptor	I
+10	adrenoceptor	O
 11	antagonist	O
 12	,	O
 13	the	O
@@ -1127,7 +1127,7 @@
 20	sevenless	O
 21	),	O
 22	the	O
-23	exchange	O
+23	exchange	B
 24	factor	I
 25	of	O
 26	Ras	B
@@ -1405,7 +1405,7 @@
 9	arise	O
 10	via	O
 11	RNase	B
-12	E	O
+12	E	I
 13	cleavage	O
 14	from	O
 15	the	O
@@ -1436,8 +1436,8 @@
 13	vitro	O
 14	restored	O
 15	full	O
-16	tiGH	O
-17	promoter	O
+16	tiGH	I
+17	promoter	I
 18	activity	O
 19	.	O
 
@@ -1525,7 +1525,7 @@
 42	-	O
 43	linked	O
 44	beta	O
-45	2m	I
+45	2m	O
 46	.	O
 
 1	Plasma	O
@@ -1571,8 +1571,8 @@
 10	abolish	O
 11	expression	O
 12	of	O
-13	LU	O
-14	genes	O
+13	LU	B
+14	genes	I
 15	and	O
 16	does	O
 17	not	O
@@ -1864,7 +1864,7 @@
 16	to	O
 17	wheat	B
 18	eIF	I
-19	-(	O
+19	-(	I
 20	iso	I
 21	)	O
 22	4F	O
@@ -1886,10 +1886,10 @@
 9	-	O
 10	stranded	O
 11	-	O
-12	RNA	I
-13	-	I
+12	RNA	O
+13	-	O
 14	specific	O
-15	adenosine	I
+15	adenosine	O
 16	deaminase	I
 17	from	O
 18	human	O
@@ -1915,7 +1915,7 @@
 9	most	O
 10	girls	O
 11	with	O
-12	TS	O
+12	TS	B
 13	can	O
 14	grow	O
 15	and	O
@@ -1933,7 +1933,7 @@
 1	When	O
 2	nifA	B
 3	mRNA	I
-4	5	O
+4	5	I
 5	'	O
 6	start	O
 7	points	O
@@ -2001,8 +2001,8 @@
 3	the	O
 4	deduced	O
 5	FR	B
-6	-	O
-7	19	O
+6	-	I
+7	19	I
 8	amino	O
 9	acid	O
 10	sequence	O
@@ -2017,10 +2017,10 @@
 19	overall	O
 20	identity	O
 21	to	O
-22	chicken	B
-23	TEF	I
-24	-	I
-25	1A	I
+22	chicken	O
+23	TEF	B
+24	-	O
+25	1A	O
 26	,	O
 27	mouse	O
 28	TEF	B
@@ -2167,7 +2167,7 @@
 12	of	O
 13	the	O
 14	Myc	B
-15	/	I
+15	/	O
 16	Max	B
 17	/	O
 18	Mad	B
@@ -2225,7 +2225,7 @@
 27	the	O
 28	Escherichia	B
 29	coli	I
-30	lacZ	B
+30	lacZ	I
 31	gene	I
 32	.	O
 
@@ -2279,7 +2279,7 @@
 11	for	O
 12	the	O
 13	NCEP	O
-14	I	O
+14	I	I
 15	.	O
 
 1	METHODS	O
@@ -2336,7 +2336,7 @@
 1	Cerebrospinal	O
 2	fluid	O
 3	transferrin	B
-4	II	O
+4	II	I
 5	studies	O
 6	in	O
 7	ischemic	O
@@ -2351,10 +2351,10 @@
 1	Identification	O
 2	of	O
 3	an	O
-4	AfsA	O
-5	homologue	O
+4	AfsA	B
+5	homologue	I
 6	(	O
-7	BarX	O
+7	BarX	I
 8	)	O
 9	from	O
 10	Streptomyces	O
@@ -2413,7 +2413,7 @@
 6	specific	O
 7	linker	O
 8	region	O
-9	LR1	O
+9	LR1	I
 10	,	O
 11	which	O
 12	joins	O
@@ -2755,13 +2755,13 @@
 1	The	O
 2	human	B
 3	papillomavirus	O
-4	type	I
+4	type	O
 5	16	I
 6	E7	B
 7	protein	I
-8	complements	I
-9	adenovirus	I
-10	type	I
+8	complements	O
+9	adenovirus	B
+10	type	O
 11	5	I
 12	E1A	I
 13	amino	O
@@ -2771,11 +2771,11 @@
 17	dependent	O
 18	transactivation	O
 19	of	O
-20	adenovirus	O
+20	adenovirus	B
 21	type	I
 22	5	I
 23	early	I
-24	genes	O
+24	genes	I
 25	and	O
 26	increases	O
 27	ATF	B
@@ -2783,7 +2783,7 @@
 29	Oct	B
 30	-	I
 31	1	I
-32	DNA	O
+32	DNA	I
 33	binding	O
 34	activity	O
 35	.	O
@@ -2855,7 +2855,7 @@
 
 1	Although	O
 2	antisperm	B
-3	antibodies	O
+3	antibodies	I
 4	are	O
 5	associated	O
 6	with	O
@@ -2994,10 +2994,10 @@
 17	of	O
 18	the	O
 19	beta	O
-20	subunit	O
+20	subunit	I
 21	of	O
 22	E	B
-23	.	O
+23	.	I
 24	coli	I
 25	RNA	I
 26	polymerase	I
@@ -3076,9 +3076,9 @@
 6	localization	O
 7	of	O
 8	the	O
-9	Cdc15p	O
-10	mitotic	O
-11	regulatory	B
+9	Cdc15p	B
+10	mitotic	I
+11	regulatory	I
 12	protein	I
 13	kinase	I
 14	in	O
@@ -3196,10 +3196,10 @@
 10	to	O
 11	stimulate	O
 12	Abf1	B
-13	ARS1	O
+13	ARS1	I
 14	DNA	I
 15	-	I
-16	binding	O
+16	binding	I
 17	activity	O
 18	,	O
 19	our	O
@@ -3208,8 +3208,8 @@
 22	that	O
 23	Cdc6	B
 24	DNA	I
-25	-	O
-26	binding	O
+25	-	I
+26	binding	I
 27	activity	O
 28	may	O
 29	play	O
@@ -3251,10 +3251,10 @@
 25	of	O
 26	the	O
 27	mSos	O
-28	C	I
+28	C	O
 29	terminus	O
 30	(	O
-31	MyrSos1	O
+31	MyrSos1	B
 32	-	O
 33	deltaC	O
 34	)	O
@@ -3409,7 +3409,7 @@
 23	,	O
 24	apo	B
 25	A	I
-26	-	I
+26	-	O
 27	I	I
 28	/	O
 29	B	O
@@ -3442,8 +3442,8 @@
 7	that	O
 8	Fos	B
 9	family	I
-10	member	I
-11	proteins	I
+10	member	O
+11	proteins	O
 12	especially	O
 13	Fra	B
 14	-	I
@@ -3493,8 +3493,8 @@
 10	MyBP	I
 11	-	I
 12	C	I
-13	(	O
-14	C	B
+13	(	I
+14	C	I
 15	protein	I
 16	)	O
 17	resides	O
@@ -3535,15 +3535,15 @@
 2	were	O
 3	assayed	O
 4	for	O
-5	alpha	O
-6	-	O
+5	alpha	B
+6	-	I
 7	fetoprotein	I
 8	,	O
 9	unconjugated	O
 10	estriol	O
 11	,	O
 12	free	O
-13	alpha	O
+13	alpha	B
 14	hCG	B
 15	,	O
 16	and	O
@@ -3574,8 +3574,8 @@
 21	A	O
 22	/	O
 23	T	B
-24	-	I
-25	rich	I
+24	-	O
+25	rich	O
 26	myocyte	B
 27	enhancer	I
 28	factor	I
@@ -3603,8 +3603,8 @@
 50	for	O
 51	the	O
 52	OP	B
-53	-	O
-54	1	O
+53	-	I
+54	1	I
 55	effect	O
 56	.	O
 
@@ -3641,8 +3641,8 @@
 3	feature	O
 4	of	O
 5	the	O
-6	recombinant	B
-7	H19	I
+6	recombinant	O
+7	H19	B
 8	allele	I
 9	is	O
 10	the	O
@@ -3830,7 +3830,7 @@
 8	and	O
 9	the	O
 10	ubiquitin	B
-11	coding	I
+11	coding	O
 12	sequences	O
 13	found	O
 14	in	O
@@ -3855,9 +3855,9 @@
 33	structure	O
 34	NH2	O
 35	-	O
-36	ubiquitin	I
-37	-	I
-38	S27a	I
+36	ubiquitin	B
+37	-	O
+38	S27a	O
 39	-	O
 40	COOH	O
 41	.	O
@@ -3935,7 +3935,7 @@
 71	of	O
 72	haemodilution	O
 73	with	O
-74	albumin	B
+74	albumin	O
 75	(	O
 76	a	O
 77	specific	O
@@ -4102,7 +4102,7 @@
 2	nifJ	O
 3	and	O
 4	nifH	B
-5	promoters	O
+5	promoters	I
 6	of	O
 7	Klebsiella	O
 8	pneumoniae	O
@@ -4111,7 +4111,7 @@
 11	transcribed	O
 12	sigma	B
 13	54	I
-14	-	I
+14	-	O
 15	dependent	O
 16	promoters	O
 17	that	O
@@ -4141,15 +4141,15 @@
 15	control	O
 16	of	O
 17	Drosophila	O
-18	regulatory	I
-19	sequences	I
+18	regulatory	O
+19	sequences	O
 20	can	O
 21	substitute	O
 22	the	O
 23	function	O
 24	of	O
-25	Drosophila	B
-26	Hox	I
+25	Drosophila	O
+26	Hox	B
 27	genes	I
 28	.	O
 
@@ -4272,14 +4272,14 @@
 26	.	O
 
 1	The	O
-2	TEA1	O
+2	TEA1	B
 3	(	O
 4	Ty	B
 5	enhancer	I
 6	activator	I
-7	)	I
+7	)	O
 8	gene	I
-9	sequence	O
+9	sequence	I
 10	predicts	O
 11	a	O
 12	protein	O
@@ -4302,14 +4302,14 @@
 29	of	O
 30	the	O
 31	Gal4	B
-32	-	O
-33	type	O
-34	family	O
+32	-	I
+33	type	I
+34	family	I
 35	of	O
 36	DNA	O
-37	-	O
-38	binding	O
-39	proteins	O
+37	-	I
+38	binding	I
+39	proteins	I
 40	.	O
 
 1	Nonlocal	O
@@ -4372,9 +4372,9 @@
 28	free	O
 29	floating	O
 30	fibroblast	O
-31	populated	I
-32	collagen	I
-33	lattices	I
+31	populated	O
+32	collagen	B
+33	lattices	O
 34	(	O
 35	FPCL	O
 36	).	O
@@ -4462,7 +4462,7 @@
 9	act	O
 10	as	O
 11	competitive	O
-12	repressors	O
+12	repressors	B
 13	of	O
 14	the	O
 15	NF	B
@@ -4480,7 +4480,7 @@
 3	a	O
 4	POZ	O
 5	/	O
-6	Zn	B
+6	Zn	O
 7	finger	O
 8	protein	O
 9	,	O
@@ -4562,7 +4562,7 @@
 5	beta	B
 6	-	I
 7	globin	I
-8	mRNA	I
+8	mRNA	O
 9	in	O
 10	K562	O
 11	cells	O
@@ -4583,8 +4583,8 @@
 26	gained	O
 27	by	O
 28	beta	B
-29	-	I
-30	globin	I
+29	-	O
+30	globin	B
 31	mRNA	O
 32	in	O
 33	K562	O
@@ -4664,7 +4664,7 @@
 15	that	O
 16	the	O
 17	Mtx	B
-18	minimal	O
+18	minimal	I
 19	promoter	I
 20	does	O
 21	not	O
@@ -4713,7 +4713,7 @@
 
 1	Using	O
 2	a	O
-3	v	O
+3	v	B
 4	-	O
 5	erbA	I
 6	probe	O
@@ -4727,8 +4727,8 @@
 14	a	O
 15	novel	O
 16	445	O
-17	-	O
-18	amino	O
+17	-	I
+18	amino	I
 19	-	I
 20	acid	I
 21	protein	I
@@ -4781,15 +4781,15 @@
 8	I	O
 9	with	O
 10	vitamin	B
-11	-	O
+11	-	I
 12	D	I
 13	-	I
 14	3	I
-15	and	O
-16	1	O
+15	and	I
+16	1	I
 17	alpha	I
 18	-	I
-19	Hydroxycholecalciferol	O
+19	Hydroxycholecalciferol	I
 20	consecutively	O
 21	resulted	O
 22	in	O
@@ -4880,7 +4880,7 @@
 51	chromosome	O
 52	4	O
 53	tumor	O
-54	suppressor	I
+54	suppressor	O
 55	gene	O
 56	by	O
 57	parental	O
@@ -4896,8 +4896,8 @@
 7	epidemiological	O
 8	study	O
 9	of	O
-10	native	O
-11	chickens	O
+10	native	B
+11	chickens	I
 12	in	O
 13	Thai	O
 14	villages	O
@@ -4951,10 +4951,10 @@
 19	a	O
 20	pathway	O
 21	involving	O
-22	phosphatidylinositol	B
-23	3	O
+22	phosphatidylinositol	O
+23	3	I
 24	'-	O
-25	kinase	O
+25	kinase	I
 26	and	O
 27	distinct	O
 28	from	O
@@ -5020,12 +5020,12 @@
 13	-	O
 14	classical	O
 15	'	O
-16	gene	I
+16	gene	O
 17	,	O
 18	HLA	B
 19	-	I
 20	5	I
-21	.	O
+21	.	I
 22	4	I
 23	,	O
 24	and	O
@@ -5076,8 +5076,8 @@
 2	characterization	O
 3	of	O
 4	the	O
-5	active	O
-6	site	O
+5	active	B
+6	site	I
 7	human	I
 8	platelet	I
 9	cAMP	I
@@ -5137,8 +5137,8 @@
 1	Mapping	O
 2	features	O
 3	of	O
-4	HIV	O
-5	-	O
+4	HIV	B
+5	-	I
 6	1	I
 7	integrase	I
 8	near	O
@@ -5241,7 +5241,7 @@
 3	region	O
 4	within	O
 5	the	O
-6	class	O
+6	class	B
 7	I	I
 8	enhancer	I
 9	acts	O
@@ -5290,8 +5290,8 @@
 8	the	O
 9	full	O
 10	-	O
-11	length	O
-12	genes	O
+11	length	I
+12	genes	I
 13	from	O
 14	a	O
 15	yeast	O
@@ -5562,8 +5562,8 @@
 7	2	I
 8	,	O
 9	a	O
-10	cytosolic	O
-11	tyrosine	B
+10	cytosolic	B
+11	tyrosine	I
 12	phosphatase	I
 13	.	O
 
@@ -5695,7 +5695,7 @@
 27	are	O
 28	crucial	O
 29	for	O
-30	CD40	O
+30	CD40	B
 31	-	O
 32	induced	O
 33	proliferation	O
@@ -5781,8 +5781,8 @@
 8	pastoris	O
 9	using	O
 10	the	O
-11	S	O
-12	.	O
+11	S	B
+12	.	I
 13	cerevisiae	I
 14	alpha	I
 15	-	I
@@ -5792,12 +5792,12 @@
 19	leader	O
 20	and	O
 21	the	O
-22	S	O
-23	.	O
+22	S	B
+23	.	I
 24	cerevisiae	O
-25	invertase	B
+25	invertase	I
 26	signal	I
-27	sequence	O
+27	sequence	I
 28	.	O
 
 1	We	O
@@ -5812,11 +5812,11 @@
 10	expression	O
 11	patterns	O
 12	of	O
-13	Ypr10	O
-14	genes	O
+13	Ypr10	B
+14	genes	I
 15	and	O
-16	ribonuclease	O
-17	genes	O
+16	ribonuclease	B
+17	genes	I
 18	,	O
 19	which	O
 20	,	O
@@ -5828,8 +5828,8 @@
 26	similarity	O
 27	to	O
 28	the	O
-29	ginseng	O
-30	ribonuclease	O
+29	ginseng	B
+30	ribonuclease	I
 31	,	O
 32	support	O
 33	the	O
@@ -5947,7 +5947,7 @@
 8	the	O
 9	c	B
 10	-	I
-11	region	O
+11	region	I
 12	that	O
 13	influence	O
 14	the	O
@@ -6027,8 +6027,8 @@
 11	enhancing	O
 12	factor	O
 13	for	O
-14	viral	O
-15	LTR	O
+14	viral	B
+15	LTR	I
 16	,	O
 17	in	O
 18	the	O
@@ -6065,8 +6065,8 @@
 49	-	I
 50	2	I
 51	promoter	I
-52	-	I
-53	chloramphenicol	I
+52	-	O
+53	chloramphenicol	B
 54	acetyltransferase	I
 55	reporter	O
 56	constructs	O
@@ -6102,10 +6102,10 @@
 28	the	O
 29	1	O
 30	.	O
-31	6	O
-32	-	O
-33	kilobase	O
-34	segment	O
+31	6	I
+32	-	I
+33	kilobase	I
+34	segment	I
 35	is	O
 36	inserted	O
 37	in	O
@@ -6158,7 +6158,7 @@
 36	.	O
 
 1	Serum	B
-2	prostatic	B
+2	prostatic	I
 3	acid	I
 4	phosphatase	I
 5	levels	O
@@ -6228,11 +6228,11 @@
 13	c	B
 14	-	I
 15	gvpD	I
-16	and	O
+16	and	I
 17	c	B
 18	-	I
 19	gvpE	I
-20	)	O
+20	)	I
 21	was	O
 22	also	O
 23	monitored	O
@@ -6461,7 +6461,7 @@
 1	Reactivities	O
 2	to	O
 3	horse	B
-4	anti	I
+4	anti	B
 5	-	I
 6	lymphocyte	I
 7	globulin	I
@@ -6682,11 +6682,11 @@
 6	arsenite	O
 7	with	O
 8	the	O
-9	hormone	O
-10	-	O
-11	binding	O
-12	domain	O
-13	results	O
+9	hormone	B
+10	-	I
+11	binding	I
+12	domain	I
+13	results	I
 14	in	O
 15	receptor	O
 16	activation	O
@@ -6724,7 +6724,7 @@
 48	of	O
 49	the	O
 50	transcription	O
-51	factor	I
+51	factor	O
 52	GAL4	B
 53	,	O
 54	and	O
@@ -6753,7 +6753,7 @@
 14	of	O
 15	the	O
 16	E3	B
-17	promoter	I
+17	promoter	O
 18	in	O
 19	yeast	O
 20	cells	O
@@ -6863,7 +6863,7 @@
 1	That	O
 2	of	O
 3	the	O
-4	T2	B
+4	T2	O
 5	gene	O
 6	contains	O
 7	numerous	O
@@ -6935,7 +6935,7 @@
 28	.	O
 
 1	Interleukin	B
-2	-	I
+2	-	O
 3	8	I
 4	(	O
 5	IL	B
@@ -6967,7 +6967,7 @@
 4	findings	O
 5	imply	O
 6	that	O
-7	eotaxin	B
+7	eotaxin	O
 8	either	O
 9	is	O
 10	mechanistically	O
@@ -7038,8 +7038,8 @@
 15	,	O
 16	that	O
 17	control	O
-18	Id4	B
-19	promoter	I
+18	Id4	O
+19	promoter	O
 20	activity	O
 21	.	O
 
@@ -7053,12 +7053,12 @@
 8	transcription	O
 9	from	O
 10	an	O
-11	HD	B
+11	HD	O
 12	-	O
 13	PPRE	O
 14	luciferase	B
-15	reporter	I
-16	construct	I
+15	reporter	O
+16	construct	O
 17	.	O
 
 1	There	O
@@ -7095,13 +7095,13 @@
 9	kbp	O
 10	of	O
 11	herpesvirus	O
-12	saimiri	O
-13	(	O
-14	HVS	O
+12	saimiri	I
+13	(	I
+14	HVS	I
 15	)	O
 16	L	O
-17	-	O
-18	DNA	O
+17	-	I
+18	DNA	I
 19	:	O
 20	general	O
 21	conservation	O
@@ -7125,7 +7125,7 @@
 6	and	O
 7	one	O
 8	of	O
-9	V	O
+9	V	B
 10	cholerae	I
 11	non	I
 12	-	I
@@ -7156,7 +7156,7 @@
 1	The	O
 2	levels	O
 3	of	O
-4	galactosyltransferase	B
+4	galactosyltransferase	O
 5	activity	O
 6	in	O
 7	sera	O
@@ -7288,7 +7288,7 @@
 8	proline	O
 9	-	O
 10	rich	O
-11	activator	I
+11	activator	B
 12	proteins	I
 13	and	O
 14	RNA	B
@@ -7358,7 +7358,7 @@
 41	this	O
 42	novel	O
 43	ETS	B
-44	factor	I
+44	factor	O
 45	may	O
 46	play	O
 47	a	O
@@ -7450,7 +7450,7 @@
 10	B	O
 11	and	O
 12	S	O
-13	-	I
+13	-	O
 14	N	I
 15	-	I
 16	Pog	I
@@ -7564,8 +7564,8 @@
 29	cells	O
 30	.	O
 
-1	Maize	O
-2	rbcS	O
+1	Maize	B
+2	rbcS	I
 3	promoter	O
 4	activity	O
 5	depends	O
@@ -7616,7 +7616,7 @@
 4	alpha1	O
 5	,	O
 6	3GT	O
-7	transcripts	O
+7	transcripts	I
 8	revealed	O
 9	two	O
 10	major	O
@@ -7758,11 +7758,11 @@
 25	RNA	B
 26	polymerases	I
 27	I	I
-28	,	O
-29	II	O
+28	,	I
+29	II	I
 30	,	O
 31	and	O
-32	III	O
+32	III	I
 33	in	O
 34	vitro	O
 35	.	O
@@ -7889,7 +7889,7 @@
 6	.	O
 7	0	O
 8	(	O
-9	ICP0	B
+9	ICP0	O
 10	)	O
 11	of	O
 12	herpes	O
@@ -8010,17 +8010,17 @@
 15	contains	O
 16	two	O
 17	tandem	O
-18	bromodomain	O
-19	modules	O
+18	bromodomain	B
+19	modules	I
 20	that	O
 21	bind	O
 22	selectively	O
 23	to	O
 24	multiply	O
 25	acetylated	B
-26	histone	B
+26	histone	I
 27	H4	I
-28	peptides	O
+28	peptides	I
 29	.	O
 
 1	Isolation	O
@@ -8055,7 +8055,7 @@
 7	(	O
 8	denoted	O
 9	pSok	B
-10	-	O
+10	-	I
 11	6	I
 12	)	O
 13	is	O
@@ -8407,7 +8407,7 @@
 8	-	O
 9	titer	O
 10	serum	O
-11	IgM	I
+11	IgM	B
 12	anti	I
 13	-	I
 14	GM1	I
@@ -8465,11 +8465,11 @@
 8	,	O
 9	purified	O
 10	soluble	O
-11	D10	I
+11	D10	O
 12	TCR	I
 13	bound	O
 14	to	O
-15	Staphylococcus	B
+15	Staphylococcus	O
 16	aureus	B
 17	enterotoxin	I
 18	C2	O
@@ -8592,7 +8592,7 @@
 60	)-	O
 61	MP	O
 62	-	O
-63	CP	I
+63	CP	B
 64	-	I
 65	3	I
 66	'	O
@@ -8671,7 +8671,7 @@
 14	factor	I
 15	receptor	I
 16	(	O
-17	LIFR	B
+17	LIFR	O
 18	)	O
 19	gene	O
 20	and	O
@@ -8729,8 +8729,8 @@
 2	established	O
 3	that	O
 4	the	O
-5	2	O
-6	.	O
+5	2	B
+6	.	I
 7	6	I
 8	kb	I
 9	mRNA	I
@@ -8741,8 +8741,8 @@
 14	the	O
 15	2	O
 16	.	O
-17	3	O
-18	kb	O
+17	3	I
+18	kb	I
 19	GGT	I
 20	mRNA	I
 21	V	I
@@ -8766,14 +8766,14 @@
 39	on	O
 40	the	O
 41	rat	O
-42	GGT	O
-43	gene	O
+42	GGT	I
+43	gene	I
 44	.	O
 
 1	The	O
 2	homeobox	B
 3	gene	I
-4	ATK1	O
+4	ATK1	I
 5	of	O
 6	Arabidopsis	O
 7	thaliana	O
@@ -8959,9 +8959,9 @@
 17	.	O
 
 1	The	O
-2	phi	O
-3	AP3	B
-4	factor	O
+2	phi	B
+3	AP3	I
+4	factor	I
 5	is	O
 6	a	O
 7	nuclear	O
@@ -9112,8 +9112,8 @@
 4	to	O
 5	the	O
 6	stage	O
-7	selector	O
-8	element	O
+7	selector	I
+8	element	I
 9	(	O
 10	SSE	O
 11	)	O
@@ -9133,7 +9133,7 @@
 25	of	O
 26	a	O
 27	linked	O
-28	beta	B
+28	beta	I
 29	-	I
 30	promoter	I
 31	in	O
@@ -9258,7 +9258,7 @@
 4	the	O
 5	activity	O
 6	of	O
-7	arogenate	O
+7	arogenate	B
 8	dehydrogenase	I
 9	to	O
 10	that	O
@@ -9267,7 +9267,7 @@
 13	dehydrogenase	I
 14	(	O
 15	approximately	O
-16	3	O
+16	3	I
 17	:	O
 18	1	O
 19	)	O
@@ -9314,7 +9314,7 @@
 27	form	O
 28	the	O
 29	SCFCdc4p	B
-30	ubiquitin	B
+30	ubiquitin	I
 31	ligase	I
 32	complex	O
 33	,	O
@@ -9401,9 +9401,9 @@
 12	lymphocytes	O
 13	to	O
 14	phytohemagglutinin	B
-15	and	O
-16	concanavalin	O
-17	A	O
+15	and	I
+16	concanavalin	I
+17	A	I
 18	mitogens	O
 19	.	O
 
@@ -9576,8 +9576,8 @@
 30	influence	O
 31	of	O
 32	TSST	B
-33	-	O
-34	1	O
+33	-	I
+34	1	I
 35	.	O
 
 1	The	O
@@ -9602,8 +9602,8 @@
 20	bind	O
 21	to	O
 22	GABP	B
-23	-	O
-24	related	I
+23	-	I
+24	related	O
 25	transcription	O
 26	factors	O
 27	.	O
@@ -9658,7 +9658,7 @@
 8	,	O
 9	USF	B
 10	/	O
-11	MLTF	I
+11	MLTF	B
 12	and	O
 13	the	O
 14	CAAT	B
@@ -9758,7 +9758,7 @@
 4	that	O
 5	regulation	O
 6	of	O
-7	flaN	O
+7	flaN	B
 8	transcription	O
 9	in	O
 10	vivo	O
@@ -10013,7 +10013,7 @@
 17	previously	O
 18	reported	O
 19	protein	O
-20	sequence	I
+20	sequence	O
 21	of	O
 22	human	B
 23	GPT	I
@@ -10028,7 +10028,7 @@
 5	of	O
 6	the	O
 7	Glc7	B
-8	-	O
+8	-	I
 9	Reg1	I
 10	phosphatase	I
 11	and	O
@@ -10193,10 +10193,10 @@
 4	had	O
 5	indicated	O
 6	that	O
-7	Reg1	O
+7	Reg1	B
 8	might	O
 9	target	O
-10	Glc7	O
+10	Glc7	B
 11	to	O
 12	nuclear	O
 13	substrates	O
@@ -10205,7 +10205,7 @@
 16	the	O
 17	Snf1	B
 18	kinase	I
-19	complex	O
+19	complex	I
 20	.	O
 
 1	These	O
@@ -10376,7 +10376,7 @@
 8	LIMK	B
 9	-	I
 10	1	I
-11	mRNA	O
+11	mRNA	I
 12	predominantly	O
 13	in	O
 14	the	O
@@ -10400,8 +10400,8 @@
 1	Roux	O
 2	-	O
 3	en	I
-4	-	I
-5	Y	I
+4	-	O
+5	Y	O
 6	gastroenterostomy	O
 7	severely	O
 8	disturbs	O
@@ -10415,7 +10415,7 @@
 2	hsp70	B
 3	gene	I
 4	family	I
-5	of	O
+5	of	I
 6	Neurospora	I
 7	crassa	I
 8	:	O
@@ -10467,12 +10467,12 @@
 5	the	O
 6	chloroplast	O
 7	(	O
-8	cp	O
+8	cp	I
 9	)	O
 10	DNA	O
 11	from	O
 12	maize	B
-13	(	O
+13	(	I
 14	Zea	B
 15	mays	I
 16	)	O
@@ -10523,10 +10523,10 @@
 3	of	O
 4	immunoglobulin	B
 5	E	I
-6	(	I
+6	(	O
 7	IgE	B
 8	)	I
-9	antibodies	I
+9	antibodies	O
 10	by	O
 11	one	O
 12	of	O
@@ -10805,26 +10805,26 @@
 17	cerevisiae	O
 18	LEU	B
 19	2	I
-20	gene	I
+20	gene	O
 21	,	O
 22	which	O
 23	complements	O
 24	S	I
 25	.	O
-26	pombe	O
+26	pombe	I
 27	leu1	I
 28	-	I
 29	gene	I
 30	and	O
-31	S	O
+31	S	B
 32	.	O
-33	pombe	O
-34	ura4	O
-35	+	O
+33	pombe	I
+34	ura4	I
+35	+	I
 36	and	O
 37	his3	B
 38	+	I
-39	genes	O
+39	genes	I
 40	);	O
 41	(	O
 42	b	O
@@ -10834,7 +10834,7 @@
 46	-	O
 47	repressible	O
 48	nmt1	B
-49	promoter	I
+49	promoter	O
 50	(	O
 51	3X	O
 52	,	O
@@ -10855,7 +10855,7 @@
 67	);	O
 68	and	O
 69	(	O
-70	c	B
+70	c	O
 71	)	O
 72	the	O
 73	multiple	O
@@ -10993,7 +10993,7 @@
 13	beta	B
 14	-	I
 15	catenin	I
-16	protein	I
+16	protein	O
 17	stability	O
 18	.	O
 
@@ -11007,8 +11007,8 @@
 8	rev	B
 9	(	O
 10	tat	B
-11	+	I
-12	rev	I
+11	+	O
+12	rev	B
 13	+)	O
 14	and	O
 15	env	B
@@ -11023,7 +11023,7 @@
 24	cells	O
 25	as	O
 26	precursor	O
-27	SU	I
+27	SU	B
 28	-	I
 29	TM	I
 30	(	O
@@ -11031,7 +11031,7 @@
 32	),	O
 33	SU	B
 34	.	O
-35	TM	B
+35	TM	O
 36	(	O
 37	gp120	B
 38	x	O
@@ -11061,8 +11061,8 @@
 16	that	O
 17	the	O
 18	region	O
-19	-	O
-20	1	O
+19	-	I
+20	1	I
 21	,	O
 22	100	O
 23	to	O
@@ -11141,9 +11141,9 @@
 14	of	O
 15	a	O
 16	vertebrate	O
-17	wee1	O
+17	wee1	B
 18	or	O
-19	mik1	O
+19	mik1	B
 20	homolog	O
 21	would	O
 22	be	O
@@ -11205,12 +11205,12 @@
 27	the	O
 28	Barbie	B
 29	box	I
-30	element	I
+30	element	O
 31	.	O
 
 1	Muscle	O
 2	GSH	B
-3	-	O
+3	-	I
 4	Px	I
 5	activity	O
 6	after	O
@@ -11226,7 +11226,7 @@
 
 1	These	O
 2	CTD	B
-3	kinases	O
+3	kinases	I
 4	,	O
 5	designated	O
 6	CTDK1	O
@@ -11684,8 +11684,8 @@
 19	.	O
 
 1	Cytohesin	B
-2	-	O
-3	1	O
+2	-	I
+3	1	I
 4	,	O
 5	a	O
 6	protein	O
@@ -11772,7 +11772,7 @@
 13	HDL2	B
 14	-	I
 15	cholesterol	I
-16	subfraction	O
+16	subfraction	I
 17	,	O
 18	possibly	O
 19	by	O
@@ -11859,7 +11859,7 @@
 28	the	O
 29	SV40	B
 30	promoter	I
-31	complex	O
+31	complex	I
 32	.	O
 
 1	A	O
@@ -12049,7 +12049,7 @@
 2	the	O
 3	infected	O
 4	neonates	O
-5	serum	B
+5	serum	O
 6	alpha	I
 7	-	I
 8	amylase	I
@@ -12120,7 +12120,7 @@
 73	neonates	O
 74	.	O
 
-1	Dopamine	B
+1	Dopamine	O
 2	caused	O
 3	a	O
 4	prominent	O
@@ -12196,13 +12196,13 @@
 10	delayed	O
 11	hypersensitivity	O
 12	by	O
-13	dialysed	O
-14	transfer	O
-15	factor	O
+13	dialysed	B
+14	transfer	I
+15	factor	I
 16	.	O
 
 1	PCNA	B
-2	mRNA	O
+2	mRNA	I
 3	has	O
 4	a	O
 5	3	O
@@ -12320,11 +12320,11 @@
 8	with	O
 9	2	O
 10	-	O
-11	nitro	O
+11	nitro	I
 12	-	O
 13	5	I
-14	-	O
-15	thiosulfabenzoate	O
+14	-	I
+15	thiosulfabenzoate	I
 16	indicates	O
 17	that	O
 18	membrane	O
@@ -12347,7 +12347,7 @@
 8	adducin	I
 9	isoform	I
 10	,	O
-11	beta	B
+11	beta	I
 12	-	I
 13	3	I
 14	,	O
@@ -12489,7 +12489,7 @@
 
 1	Krox	B
 2	-	I
-3	24	O
+3	24	I
 4	is	O
 5	therefore	O
 6	a	O
@@ -12516,8 +12516,8 @@
 14	-	I
 15	1	I
 16	-	I
-17	binding	O
-18	sequence	O
+17	binding	I
+18	sequence	I
 19	within	O
 20	the	O
 21	proximal	O
@@ -12561,8 +12561,8 @@
 17	of	O
 18	the	O
 19	MAO	B
-20	-	I
-21	B	I
+20	-	O
+21	B	O
 22	inhibitor	O
 23	deprenyl	O
 24	to	O
@@ -12573,7 +12573,7 @@
 
 1	The	O
 2	human	O
-3	purH	O
+3	purH	I
 4	cDNA	O
 5	is	O
 6	1776	O
@@ -12806,7 +12806,7 @@
 20	butyrylcholinesterase	B
 21	and	O
 22	neuropathy	B
-23	target	O
+23	target	I
 24	esterase	I
 25	.	O
 
@@ -12817,7 +12817,7 @@
 5	and	O
 6	another	O
 7	homeodomain	B
-8	protein	I
+8	protein	O
 9	,	O
 10	Pit	B
 11	-	I
@@ -12885,19 +12885,19 @@
 3	this	O
 4	interpretation	O
 5	,	O
-6	recombinant	B
+6	recombinant	O
 7	CREB	B
 8	and	O
 9	activating	B
 10	transcription	I
 11	factor	I
-12	proteins	I
+12	proteins	O
 13	bound	O
 14	the	O
 15	junB	B
 16	CRE	O
-17	-	O
-18	like	O
+17	-	I
+18	like	I
 19	site	O
 20	,	O
 21	but	O
@@ -13007,7 +13007,7 @@
 3	with	O
 4	the	O
 5	coactivator	B
-6	CREB	B
+6	CREB	I
 7	binding	I
 8	protein	I
 9	/	O
@@ -13093,7 +13093,7 @@
 2	absolute	O
 3	configuration	O
 4	at	O
-5	C	O
+5	C	B
 6	-	O
 7	2	O
 8	in	O
@@ -13426,7 +13426,7 @@
 2	factor	I
 3	III	I
 4	(	O
-5	NFIII	O
+5	NFIII	B
 6	)	O
 7	is	O
 8	a	O
@@ -13441,7 +13441,7 @@
 17	of	O
 18	adenovirus	O
 19	type	O
-20	2	I
+20	2	O
 21	(	O
 22	Ad2	O
 23	)	O
@@ -13489,9 +13489,9 @@
 19	response	O
 20	genes	O
 21	termed	O
-22	immediate	B
-23	-	I
-24	early	I
+22	immediate	O
+23	-	O
+24	early	O
 25	genes	O
 26	(	O
 27	IEGs	O
@@ -13629,18 +13629,18 @@
 
 1	The	O
 2	intracellular	O
-3	basic	O
-4	region	O
+3	basic	B
+4	region	I
 5	/	O
-6	helix	O
-7	-	O
-8	loop	O
-9	-	O
+6	helix	B
+7	-	I
+8	loop	I
+9	-	I
 10	helix	I
 11	(	O
 12	bHLH	B
-13	)	O
-14	dioxin	B
+13	)	I
+14	dioxin	I
 15	receptor	I
 16	mediates	O
 17	signal	O
@@ -13671,7 +13671,7 @@
 42	activated	O
 43	DNA	O
 44	binding	O
-45	protein	O
+45	protein	I
 46	directly	O
 47	interacting	O
 48	with	O
@@ -13691,7 +13691,7 @@
 4	c	B
 5	-	I
 6	Src	I
-7	PTK	I
+7	PTK	B
 8	activity	O
 9	was	O
 10	enhanced	O
@@ -13904,7 +13904,7 @@
 75	to	O
 76	TRH	B
 77	/	O
-78	GnRH	I
+78	GnRH	B
 79	test	O
 80	.	O
 
@@ -13940,7 +13940,7 @@
 9	indicate	O
 10	that	O
 11	the	O
-12	NarL	O
+12	NarL	B
 13	heptamers	O
 14	are	O
 15	arranged	O
@@ -13961,7 +13961,7 @@
 8	,	O
 9	non	O
 10	-	O
-11	B	I
+11	B	O
 12	hepatitis	O
 13	:	O
 14	irrational	O
@@ -14043,13 +14043,13 @@
 29	hLEF	O
 30	and	O
 31	other	O
-32	T	O
-33	-	O
-34	cell	O
-35	-	O
-36	specific	O
-37	factors	O
-38	recruited	O
+32	T	B
+33	-	I
+34	cell	I
+35	-	I
+36	specific	I
+37	factors	I
+38	recruited	I
 39	to	O
 40	the	O
 41	enhancer	O
@@ -14082,8 +14082,8 @@
 25	liver	O
 26	-	O
 27	specific	O
-28	enhancer	I
-29	II	I
+28	enhancer	O
+29	II	O
 30	and	O
 31	HBx	B
 32	is	O
@@ -14098,7 +14098,7 @@
 41	.	O
 
 1	A	O
-2	2	I
+2	2	O
 3	kb	O
 4	transcript	O
 5	was	O
@@ -14111,7 +14111,7 @@
 12	approximately	O
 13	57	O
 14	kDa	O
-15	protein	O
+15	protein	I
 16	;	O
 17	the	O
 18	predicted	O
@@ -14122,7 +14122,7 @@
 23	N	O
 24	-	O
 25	terminal	O
-26	Ets	B
+26	Ets	I
 27	domain	I
 28	of	O
 29	PE1	B
@@ -14141,15 +14141,15 @@
 42	ERF	I
 43	.	O
 
-1	RNA	O
+1	RNA	I
 2	polymerase	I
 3	bound	O
 4	to	O
 5	the	O
-6	+	O
+6	+	B
 7	10A	I
 8	promoter	I
-9	partially	O
+9	partially	I
 10	protects	O
 11	a	O
 12	20	O
@@ -14177,7 +14177,7 @@
 7	and	O
 8	colestipol	O
 9	),	O
-10	nicotinic	B
+10	nicotinic	O
 11	acid	O
 12	,	O
 13	fenofibrate	O
@@ -14352,7 +14352,7 @@
 2	analysis	O
 3	of	O
 4	the	O
-5	mutant	O
+5	mutant	B
 6	desmin	I
 7	in	O
 8	SW13	O
@@ -14365,9 +14365,9 @@
 15	of	O
 16	abnormal	O
 17	coarse	O
-18	clumps	O
+18	clumps	I
 19	of	O
-20	desmin	O
+20	desmin	B
 21	positive	O
 22	material	O
 23	dispersed	O
@@ -14414,7 +14414,7 @@
 2	spontaneous	O
 3	mutation	O
 4	blocking	O
-5	pca	B
+5	pca	O
 6	gene	O
 7	expression	O
 8	was	O
@@ -14424,7 +14424,7 @@
 12	promoter	O
 13	for	O
 14	the	O
-15	pca	B
+15	pca	O
 16	operon	I
 17	.	O
 
@@ -14577,7 +14577,7 @@
 10	,	O
 11	vWF	B
 12	:	O
-13	Ag	B
+13	Ag	O
 14	does	O
 15	not	O
 16	require	O
@@ -14751,7 +14751,7 @@
 26	of	O
 27	biologic	O
 28	response	O
-29	modifiers	I
+29	modifiers	O
 30	and	O
 31	growth	O
 32	factors	O
@@ -14866,10 +14866,10 @@
 3	a	O
 4	key	O
 5	serine	B
-6	-	O
-7	threonine	I
-8	protein	I
-9	kinase	I
+6	-	I
+7	threonine	O
+8	protein	O
+9	kinase	O
 10	which	O
 11	participates	O
 12	in	O
@@ -14913,7 +14913,7 @@
 25	(	O
 26	RVAs	O
 27	),	O
-28	rib	B
+28	rib	O
 29	-	O
 30	vertebra	O
 31	angle	O
@@ -14930,7 +14930,7 @@
 42	.	O
 
 1	All	O
-2	anti	B
+2	anti	O
 3	-	O
 4	I	I
 5	and	O
@@ -14979,7 +14979,7 @@
 10	vivo	O
 11	role	O
 12	of	O
-13	ELE1	B
+13	ELE1	O
 14	in	O
 15	nuclear	O
 16	receptor	O
@@ -15060,7 +15060,7 @@
 11	the	O
 12	pathogenesis	O
 13	of	O
-14	MAL	B
+14	MAL	O
 15	,	O
 16	narcolepsy	O
 17	,	O
@@ -15088,7 +15088,7 @@
 18	tumor	O
 19	virus	O
 20	-	O
-21	pp60	O
+21	pp60	B
 22	(	O
 23	c	B
 24	-	I
@@ -15112,10 +15112,10 @@
 12	,	O
 13	the	O
 14	20S	B
-15	and	O
-16	19S	O
+15	and	I
+16	19S	I
 17	(	O
-18	PA700	O
+18	PA700	I
 19	)	O
 20	or	O
 21	P28	O
@@ -15127,7 +15127,7 @@
 27	form	O
 28	the	O
 29	26S	B
-30	particles	O
+30	particles	I
 31	.	O
 
 1	However	O
@@ -15201,12 +15201,12 @@
 7	12K	B
 8	)	O
 9	IE	B
-10	polypeptide	O
+10	polypeptide	I
 11	encoded	O
 12	by	O
 13	IEmRNA	O
-14	-	O
-15	5	O
+14	-	I
+15	5	I
 16	is	O
 17	translated	O
 18	from	O
@@ -15260,7 +15260,7 @@
 29	previously	O
 30	characterized	O
 31	but	O
-32	unmapped	B
+32	unmapped	O
 33	gene	O
 34	NEFA	O
 35	(	O
@@ -15318,9 +15318,9 @@
 4	of	O
 5	the	O
 6	full	O
-7	-	O
-8	length	O
-9	promoter	O
+7	-	I
+8	length	I
+9	promoter	I
 10	(-	O
 11	295	O
 12	to	O
@@ -15342,7 +15342,7 @@
 28	74	O
 29	to	O
 30	+	O
-31	85	I
+31	85	O
 32	)	O
 33	were	O
 34	significantly	O
@@ -15467,7 +15467,7 @@
 57	(	O
 58	mouse	B
 59	ODC	I
-60	numbering	O
+60	numbering	I
 61	),	O
 62	all	O
 63	of	O
@@ -15506,7 +15506,7 @@
 96	S	O
 97	.	O
 98	ruminantium	O
-99	LDC	I
+99	LDC	O
 100	.	O
 1	To	O
 2	examine	O
@@ -15552,7 +15552,7 @@
 3	-	O
 4	terminal	O
 5	CCCC	O
-6	module	B
+6	module	O
 7	is	O
 8	structurally	O
 9	related	O
@@ -15564,8 +15564,8 @@
 15	domain	O
 16	of	O
 17	the	O
-18	erythroid	B
-19	transcription	I
+18	erythroid	O
+19	transcription	O
 20	factor	I
 21	GATA	I
 22	-	I
@@ -15591,7 +15591,7 @@
 17	(	O
 18	Ultravist	O
 19	,	O
-20	CAS	O
+20	CAS	B
 21	73334	O
 22	-	O
 23	07	O
@@ -15627,7 +15627,7 @@
 20	beta	B
 21	c	I
 22	and	I
-23	IL	B
+23	IL	I
 24	-	I
 25	2R	I
 26	beta	I
@@ -15746,7 +15746,7 @@
 20	.	O
 
 1	T	B
-2	antigen	I
+2	antigen	O
 3	contains	O
 4	four	O
 5	H	O
@@ -15768,7 +15768,7 @@
 21	for	O
 22	CTL	O
 23	clones	O
-24	Y	I
+24	Y	B
 25	-	I
 26	1	I
 27	,	O
@@ -15777,7 +15777,7 @@
 30	2	I
 31	,	O
 32	Y	O
-33	-	I
+33	-	O
 34	3	I
 35	,	O
 36	and	O
@@ -15909,7 +15909,7 @@
 1	Two	O
 2	variant	O
 3	PRP	O
-4	-	O
+4	-	I
 5	precursor	O
 6	alleles	O
 7	occur	O
@@ -15968,7 +15968,7 @@
 7	assay	O
 8	,	O
 9	beta	B
-10	-	O
+10	-	I
 11	catenin	I
 12	rapidly	O
 13	migrates	O
@@ -16006,13 +16006,13 @@
 14	group	I
 15	(	O
 16	HMG	B
-17	)	O
+17	)	I
 18	box	O
 19	and	O
 20	a	O
 21	leucine	O
 22	zipper	O
-23	motif	O
+23	motif	I
 24	,	O
 25	which	O
 26	was	O
@@ -16032,7 +16032,7 @@
 40	library	O
 41	.	O
 
-1	BiP670	O
+1	BiP670	I
 2	retains	O
 3	basal	O
 4	and	O
@@ -16045,8 +16045,8 @@
 11	activities	O
 12	.	O
 
-1	Plasma	B
-2	renin	I
+1	Plasma	O
+2	renin	B
 3	activity	O
 4	rose	O
 5	and	O
@@ -16109,10 +16109,10 @@
 12	motifs	O
 13	for	O
 14	DNA	O
-15	-	O
-16	binding	O
-17	transcriptional	O
-18	activators	O
+15	-	I
+16	binding	I
+17	transcriptional	I
+18	activators	I
 19	,	O
 20	including	O
 21	one	O
@@ -16123,10 +16123,10 @@
 26	the	O
 27	core	B
 28	HAP2	I
-29	/	I
+29	/	O
 30	3	I
 31	/	O
-32	4	I
+32	4	O
 33	binding	O
 34	motif	O
 35	,	O
@@ -16264,7 +16264,7 @@
 5	of	O
 6	beta	B
 7	-	O
-8	adrenergic	I
+8	adrenergic	O
 9	receptors	O
 10	with	O
 11	propranolol	O
@@ -16337,8 +16337,8 @@
 33	of	O
 34	the	O
 35	triceps	O
-36	brachii	O
-37	muscle	O
+36	brachii	I
+37	muscle	I
 38	in	O
 39	R	O
 40	rats	O
@@ -16398,21 +16398,21 @@
 7	increased	O
 8	expression	O
 9	of	O
-10	arg	O
-11	-	O
+10	arg	B
+11	-	I
 12	2	I
 13	and	O
-14	cpc	O
-15	-	O
-16	1	O
+14	cpc	B
+15	-	I
+16	1	I
 17	,	O
 18	and	O
 19	decreased	O
 20	expression	O
 21	of	O
-22	cox	O
-23	-	O
-24	5	O
+22	cox	B
+23	-	I
+24	5	I
 25	,	O
 26	also	O
 27	had	O
@@ -16482,13 +16482,13 @@
 28	message	O
 29	accompanied	O
 30	by	O
-31	weaker	O
-32	bands	B
+31	weaker	B
+32	bands	I
 33	4	I
 34	.	I
 35	1	I
 36	and	O
-37	2	I
+37	2	O
 38	.	O
 39	1	O
 40	kb	O
@@ -16532,9 +16532,9 @@
 5	conditional	O
 6	lethal	O
 7	mutation	O
-8	ts	I
-9	-	O
-10	A13	O
+8	ts	O
+9	-	I
+10	A13	I
 11	,	O
 12	localized	O
 13	in	O
@@ -16663,7 +16663,7 @@
 25	TGTGCAA	O
 26	-	O
 27	like	O
-28	motifs	O
+28	motifs	I
 29	within	O
 30	DSL	O
 31	.	O
@@ -16719,7 +16719,7 @@
 
 1	The	O
 2	kallistatin	B
-3	gene	O
+3	gene	I
 4	was	O
 5	localized	O
 6	by	O
@@ -16740,12 +16740,12 @@
 21	the	O
 22	serpin	B
 23	genes	I
-24	encoding	O
+24	encoding	I
 25	alpha	I
 26	1	I
 27	-	I
 28	antichymotrypsin	I
-29	,	O
+29	,	I
 30	protein	B
 31	C	I
 32	inhibitor	I
@@ -16756,8 +16756,8 @@
 37	antitrypsin	I
 38	,	O
 39	and	O
-40	corticosteroid	O
-41	-	O
+40	corticosteroid	B
+41	-	I
 42	binding	I
 43	globulin	I
 44	.	O
@@ -16769,7 +16769,7 @@
 5	presence	O
 6	of	O
 7	active	O
-8	S	O
+8	S	B
 9	-	I
 10	CDKs	I
 11	and	O
@@ -16787,7 +16787,7 @@
 23	the	O
 24	loading	O
 25	of	O
-26	RPA	B
+26	RPA	O
 27	.	O
 
 1	D	O
@@ -16809,7 +16809,7 @@
 14	cat	O
 15	.	O
 
-1	A	O
+1	A	I
 2	protein	O
 3	lacking	O
 4	the	O
@@ -16834,9 +16834,9 @@
 23	finger	O
 24	domains	O
 25	of	O
-26	SLI	B
-27	-	I
-28	1	I
+26	SLI	O
+27	-	O
+28	1	O
 29	replaced	O
 30	by	O
 31	the	O
@@ -16885,14 +16885,14 @@
 19	MSH6	O
 20	and	O
 21	MLH1	B
-22	-	O
+22	-	I
 23	PMS1	I
 24	protein	I
 25	complexes	O
 26	.	O
 
 1	Isopenicillin	B
-2	N	B
+2	N	I
 3	isomerase	I
 4	(	O
 5	epimerase	O
@@ -16963,7 +16963,7 @@
 4	report	O
 5	that	O
 6	swa5	B
-7	-	O
+7	-	I
 8	1	O
 9	is	O
 10	a	O
@@ -17140,8 +17140,8 @@
 11	contain	O
 12	less	O
 13	collagen	B
-14	type	I
-15	IV	I
+14	type	O
+15	IV	O
 16	than	O
 17	similarly	O
 18	sized	O
@@ -17232,7 +17232,7 @@
 12	)	I
 13	protein	I
 14	from	O
-15	tomato	O
+15	tomato	I
 16	plants	O
 17	that	O
 18	is	O
@@ -17332,7 +17332,7 @@
 4	activates	O
 5	CBF1	B
 6	/	O
-7	RBPJk	O
+7	RBPJk	B
 8	-	O
 9	repressed	O
 10	genes	O
@@ -17342,8 +17342,8 @@
 14	resembling	O
 15	that	O
 16	of	O
-17	Epstein	O
-18	-	O
+17	Epstein	B
+18	-	I
 19	Barr	I
 20	virus	I
 21	EBNA2	I
@@ -17359,15 +17359,15 @@
 5	/	I
 6	EBP	I
 7	family	I
-8	of	O
-9	basic	O
+8	of	I
+9	basic	B
 10	-	I
 11	leucine	I
-12	zipper	O
-13	(	O
-14	bZip	O
-15	)	O
-16	transcription	O
+12	zipper	I
+13	(	I
+14	bZip	I
+15	)	I
+16	transcription	I
 17	factors	O
 18	form	O
 19	heterodimers	O
@@ -17599,11 +17599,11 @@
 27	quantitative	O
 28	measurement	O
 29	of	O
-30	allergen	B
+30	allergen	O
 31	-	O
 32	specific	O
 33	IgE	B
-34	antibodies	I
+34	antibodies	O
 35	by	O
 36	comparison	O
 37	with	O
@@ -17631,10 +17631,10 @@
 6	vicinity	O
 7	of	O
 8	methylmalonyl	B
-9	-	I
+9	-	O
 10	CoA	I
-11	mutase	I
-12	gene	I
+11	mutase	O
+12	gene	O
 13	(	O
 14	mutAB	O
 15	)	O
@@ -17663,9 +17663,9 @@
 38	novel	O
 39	serine	B
 40	/	I
-41	threonine	I
-42	protein	I
-43	kinase	I
+41	threonine	O
+42	protein	O
+43	kinase	O
 44	(	O
 45	amk	O
 46	).	O
@@ -17722,7 +17722,7 @@
 11	individual	O
 12	ICP27	B
 13	C	I
-14	-	I
+14	-	O
 15	terminal	O
 16	amino	O
 17	acid	O
@@ -17750,18 +17750,18 @@
 39	-	O
 40	479	O
 41	,	O
-42	C	O
-43	-	O
+42	C	B
+43	-	I
 44	400	O
 45	,	O
-46	C	O
-47	-	O
+46	C	B
+47	-	I
 48	483	O
 49	,	O
 50	and	O
 51	C	O
-52	-	O
-53	488	O
+52	-	I
+53	488	I
 54	)	O
 55	are	O
 56	critical	O
@@ -17795,8 +17795,8 @@
 21	of	O
 22	a	O
 23	truncated	O
-24	C	I
-25	-	I
+24	C	O
+25	-	O
 26	MYB	O
 27	protein	O
 28	as	O
@@ -17814,8 +17814,8 @@
 40	.	O
 
 1	Ent	B
-2	-	O
-3	kaurene	I
+2	-	I
+3	kaurene	B
 4	synthase	I
 5	from	O
 6	the	O
@@ -17888,7 +17888,7 @@
 4	,	O
 5	the	O
 6	beta	O
-7	isoform	O
+7	isoform	I
 8	has	O
 9	the	O
 10	greatest	O
@@ -17897,7 +17897,7 @@
 13	for	O
 14	the	O
 15	PtdIns	B
-16	(	O
+16	(	I
 17	4	I
 18	)	I
 19	P	I
@@ -18019,7 +18019,7 @@
 9	that	O
 10	binds	O
 11	to	O
-12	enhancer	I
+12	enhancer	O
 13	site	I
 14	III	I
 15	.	O
@@ -18170,24 +18170,24 @@
 50	%.	O
 
 1	The	O
-2	human	O
-3	2	O
+2	human	B
+3	2	I
 4	',	O
-5	5	O
-6	'-	O
-7	oligoadenylate	O
+5	5	I
+6	'-	I
+7	oligoadenylate	I
 8	(	O
-9	2	O
+9	2	I
 10	-	I
-11	5A	I
+11	5A	B
 12	)	O
-13	synthetases	I
+13	synthetases	O
 14	are	O
 15	members	O
 16	of	O
 17	a	O
-18	family	B
-19	interferon	I
+18	family	O
+19	interferon	B
 20	(	O
 21	IFN	B
 22	)-	I
@@ -18204,7 +18204,7 @@
 4	rabbits	O
 5	given	O
 6	mouse	O
-7	CRF	B
+7	CRF	O
 8	-	O
 9	flora	O
 10	showed	O
@@ -18223,7 +18223,7 @@
 23	of	O
 24	mouse	O
 25	CRF	I
-26	flora	O
+26	flora	I
 27	to	O
 28	'	O
 29	normalize	O
@@ -18298,7 +18298,7 @@
 4	(	O
 5	bcr	B
 6	-	I
-7	abl	I
+7	abl	B
 8	)	O
 9	are	O
 10	likely	O
@@ -18469,8 +18469,8 @@
 11	endo	O
 12	-	O
 13	N	I
-14	-	O
-15	acylneuraminidase	O
+14	-	I
+15	acylneuraminidase	I
 16	(	O
 17	endo	O
 18	-	O
@@ -18695,7 +18695,7 @@
 2	SCH9	B
 3	protein	I
 4	kinase	I
-5	mRNA	O
+5	mRNA	I
 6	contains	O
 7	a	O
 8	long	O
@@ -18722,7 +18722,7 @@
 10	determine	O
 11	and	O
 12	compare	B
-13	interleukin	B
+13	interleukin	I
 14	-	I
 15	6	I
 16	(	O
@@ -18754,7 +18754,7 @@
 42	adult	O
 43	periodontitis	O
 44	(	O
-45	AP	B
+45	AP	O
 46	).	O
 
 1	In	O
@@ -18832,10 +18832,10 @@
 73	.	O
 
 1	The	O
-2	C	O
-3	-	O
-4	terminal	O
-5	mutants	O
+2	C	B
+3	-	I
+4	terminal	I
+5	mutants	I
 6	were	O
 7	strongly	O
 8	dominant	O
@@ -18850,8 +18850,8 @@
 17	heteromultimers	O
 18	with	O
 19	the	O
-20	wild	O
-21	-	O
+20	wild	B
+21	-	I
 22	type	I
 23	activator	I
 24	.	O
@@ -18932,7 +18932,7 @@
 36	sequence	O
 37	of	O
 38	the	O
-39	Drosophila	B
+39	Drosophila	O
 40	PCNA	B
 41	was	O
 42	identical	O
@@ -18941,7 +18941,7 @@
 45	rat	O
 46	and	O
 47	human	B
-48	PCNA	B
+48	PCNA	I
 49	polypeptides	I
 50	,	O
 51	with	O
@@ -19039,7 +19039,7 @@
 39	activate	O
 40	protein	B
 41	kinase	I
-42	C	I
+42	C	O
 43	.	O
 
 1	RNase	B
@@ -19172,8 +19172,8 @@
 30	(	O
 31	r	B
 32	)	O
-33	160	O
-34	kDa	O
+33	160	B
+34	kDa	I
 35	RNA	I
 36	-	I
 37	dependent	I
@@ -19182,11 +19182,11 @@
 40	(	O
 41	ORF1	O
 42	),	O
-43	26	O
-44	kDa	O
-45	movement	O
-46	protein	O
-47	1	O
+43	26	B
+44	kDa	I
+45	movement	I
+46	protein	I
+47	1	I
 48	(	O
 49	ORF2	O
 50	),	O
@@ -19208,7 +19208,7 @@
 66	),	O
 67	24	O
 68	kDa	O
-69	coat	I
+69	coat	B
 70	protein	I
 71	(	O
 72	OFR5	O
@@ -19343,8 +19343,8 @@
 7	DNA	O
 8	for	O
 9	a	O
-10	mouse	O
-11	gene	O
+10	mouse	B
+11	gene	I
 12	encoding	O
 13	a	O
 14	protein	O
@@ -19360,8 +19360,8 @@
 24	proteins	O
 25	of	O
 26	the	O
-27	Spo11p	B
-28	family	I
+27	Spo11p	O
+28	family	O
 29	.	O
 
 1	No	O
@@ -19483,7 +19483,7 @@
 3	oncogenes	O
 4	and	O
 5	growth	O
-6	factors	O
+6	factors	I
 7	promote	O
 8	G1	O
 9	phase	O
@@ -19563,7 +19563,7 @@
 4	induction	O
 5	of	O
 6	aeg	O
-7	-	I
+7	-	O
 8	46	I
 9	.	O
 10	5	I
@@ -19593,8 +19593,8 @@
 9	and	O
 10	low	O
 11	-	O
-12	molecular	O
-13	-	O
+12	molecular	I
+13	-	I
 14	weight	O
 15	heparins	O
 16	)	O
@@ -19669,8 +19669,8 @@
 3	on	O
 4	the	O
 5	catalytic	O
-6	fragment	I
-7	kinase	I
+6	fragment	O
+7	kinase	O
 8	reaction	O
 9	demonstrated	O
 10	that	O
@@ -19724,9 +19724,9 @@
 8	a	O
 9	strain	O
 10	lacking	O
-11	Msn2p	O
+11	Msn2p	B
 12	and	O
-13	Msn4p	O
+13	Msn4p	B
 14	activity	O
 15	.	O
 
@@ -19746,8 +19746,8 @@
 14	DNA	O
 15	-	O
 16	activated	O
-17	protein	I
-18	kinase	I
+17	protein	O
+18	kinase	O
 19	activity	O
 20	from	O
 21	the	O
@@ -19952,7 +19952,7 @@
 9	target	O
 10	for	O
 11	NS1	B
-12	protein	O
+12	protein	I
 13	,	O
 14	a	O
 15	translational	O
@@ -19969,15 +19969,15 @@
 5	,	O
 6	alpha	O
 7	-(	O
-8	3	O
-9	-	O
-10	methyl	O
-11	-	O
+8	3	I
+9	-	I
+10	methyl	I
+11	-	I
 12	2	I
-13	-	O
+13	-	I
 14	quinoxalinyl	I
 15	)-	O
-16	N	O
+16	N	B
 17	-	I
 18	methylnitrone	I
 19	1	I
@@ -20016,8 +20016,8 @@
 6	,	O
 7	in	O
 8	fibroblasts	O
-9	PILOT	B
-10	gene	I
+9	PILOT	O
+10	gene	O
 11	expression	O
 12	requires	O
 13	only	O
@@ -20093,7 +20093,7 @@
 33	RNA	B
 34	polymerase	I
 35	III	I
-36	promoter	I
+36	promoter	O
 37	.	O
 
 1	Naturally	O
@@ -20164,7 +20164,7 @@
 13	the	O
 14	tat	B
 15	ORF	I
-16	mutations	O
+16	mutations	I
 17	resulted	O
 18	in	O
 19	higher	O
@@ -20202,14 +20202,14 @@
 10	the	O
 11	presumptive	O
 12	HS	B
-13	promoter	O
+13	promoter	I
 14	of	O
 15	the	O
 16	soybean	B
 17	HS	I
 18	-	I
 19	protein	I
-20	genes	O
+20	genes	I
 21	demonstrated	O
 22	this	O
 23	region	O
@@ -20219,7 +20219,7 @@
 27	homologous	O
 28	.	O
 
-1	VirD2	O
+1	VirD2	B
 2	is	O
 3	one	O
 4	of	O
@@ -20257,7 +20257,7 @@
 17	regulation	O
 18	of	O
 19	dmsA	B
-20	-	I
+20	-	O
 21	lacZ	B
 22	expression	O
 23	in	O
@@ -20269,7 +20269,7 @@
 3	-	O
 4	length	O
 5	N	O
-6	gene	O
+6	gene	I
 7	,	O
 8	encoded	O
 9	by	O
@@ -20286,7 +20286,7 @@
 20	PRRS	O
 21	virus	O
 22	,	O
-23	PA	B
+23	PA	O
 24	-	O
 25	8	O
 26	.	O
@@ -20381,17 +20381,17 @@
 6	the	O
 7	shy2	O
 8	-	O
-9	1D	O
+9	1D	I
 10	mutant	O
 11	with	O
 12	the	O
 13	phytochrome	B
 14	-	I
-15	deficient	O
+15	deficient	I
 16	mutants	I
 17	hy2	I
 18	,	O
-19	hy3	O
+19	hy3	B
 20	(	O
 21	phyB	B
 22	-	I
@@ -20400,7 +20400,7 @@
 25	and	O
 26	fre1	O
 27	-	O
-28	1	I
+28	1	O
 29	(	O
 30	phyA	O
 31	-	O
@@ -20543,8 +20543,8 @@
 21	SREBPs	B
 22	).	O
 
-1	Human	B
-2	acid	I
+1	Human	O
+2	acid	O
 3	ceramidase	I
 4	((	I
 5	AC	I
@@ -20557,7 +20557,7 @@
 12	EC	B
 13	3	I
 14	.	O
-15	5	O
+15	5	I
 16	.	O
 
 1	Comprising	O
@@ -20719,7 +20719,7 @@
 52	genome	O
 53	.	O
 
-1	RNA	B
+1	RNA	I
 2	polymerase	I
 3	II	I
 4	inhibition	O
@@ -20729,7 +20729,7 @@
 8	of	O
 9	ARE	O
 10	(	O
-11	AUBP	O
+11	AUBP	I
 12	activity	O
 13	)	O
 14	and	O
@@ -20739,7 +20739,7 @@
 18	)-	O
 19	Sepharose	O
 20	by	O
-21	cytoplasmic	O
+21	cytoplasmic	B
 22	hnRNP	I
 23	A1	I
 24	,	O
@@ -20747,7 +20747,7 @@
 26	nuclear	B
 27	hnRNP	I
 28	A1	I
-29	binding	O
+29	binding	I
 30	was	O
 31	unaffected	O
 32	.	O
@@ -20928,7 +20928,7 @@
 
 1	Sak	B
 2	kinase	I
-3	gene	O
+3	gene	I
 4	structure	O
 5	and	O
 6	transcriptional	O
@@ -20957,7 +20957,7 @@
 6	MAP	B
 7	kinase	I
 8	activator	I
-9	/	I
+9	/	O
 10	MAP	I
 11	kinase	I
 12	system	O
@@ -21075,15 +21075,15 @@
 6	Rhizobium	O
 7	meliloti	O
 8	insertion	O
-9	sequence	O
-10	ISRm3	O
+9	sequence	I
+10	ISRm3	I
 11	:	O
 12	similarity	O
 13	between	O
 14	the	O
 15	putative	O
-16	transposase	O
-17	encoded	O
+16	transposase	B
+17	encoded	I
 18	by	O
 19	ISRm3	O
 20	and	O
@@ -21137,7 +21137,7 @@
 14	and	O
 15	with	O
 16	LDL	B
-17	particle	O
+17	particle	I
 18	size	O
 19	among	O
 20	women	O
@@ -21168,10 +21168,10 @@
 23	-	I
 24	Fos	I
 25	and	O
-26	C	O
-27	-	O
-28	terminal	O
-29	truncations	O
+26	C	B
+27	-	I
+28	terminal	I
+29	truncations	I
 30	of	O
 31	c	B
 32	-	I
@@ -21399,10 +21399,10 @@
 4	of	O
 5	cellular	O
 6	nucleic	O
-7	acid	O
-8	-	O
-9	binding	O
-10	protein	O
+7	acid	I
+8	-	I
+9	binding	I
+10	protein	I
 11	interact	O
 12	with	O
 13	a	O
@@ -21496,7 +21496,7 @@
 8	stimulation	O
 9	of	O
 10	HA	B
-11	-	I
+11	-	O
 12	ERK2	B
 13	but	O
 14	inhibited	O
@@ -21513,7 +21513,7 @@
 2	a	O
 3	series	O
 4	of	O
-5	mutant	O
+5	mutant	B
 6	T	I
 7	antigens	I
 8	expressed	O
@@ -21914,7 +21914,7 @@
 20	other	O
 21	cell	O
 22	types	O
-23	Id1	B
+23	Id1	O
 24	mRNA	O
 25	was	O
 26	expressed	O
@@ -22012,13 +22012,13 @@
 
 1	The	O
 2	human	B
-3	insulin	B
+3	insulin	I
 4	-	I
 5	like	I
 6	growth	I
 7	factor	I
 8	II	I
-9	(	O
+9	(	I
 10	IGF	B
 11	-	I
 12	II	I
@@ -22137,7 +22137,7 @@
 2	PLB	O
 3	showed	O
 4	optimal	O
-5	lyase	B
+5	lyase	I
 6	activity	O
 7	at	O
 8	pH	O
@@ -22259,12 +22259,12 @@
 7	the	O
 8	US	O
 9	of	O
-10	herpes	O
-11	simplex	O
-12	type	O
-13	1	O
+10	herpes	B
+11	simplex	I
+12	type	I
+13	1	I
 14	(	O
-15	HSV	O
+15	HSV	B
 16	-	I
 17	1	I
 18	),	O
@@ -22279,9 +22279,9 @@
 27	type	I
 28	1	I
 29	(	O
-30	EHV	O
-31	-	O
-32	1	O
+30	EHV	I
+31	-	I
+32	1	I
 33	).	O
 
 1	CONCLUSIONS	O
@@ -22330,7 +22330,7 @@
 24	with	O
 25	soluble	O
 26	egg	O
-27	antigen	I
+27	antigen	O
 28	(	O
 29	SEA	O
 30	)	O
@@ -22352,11 +22352,11 @@
 7	anti	B
 8	B	I
 9	antibody	I
-10	status	O
+10	status	I
 11	of	O
 12	100	O
-13	antenatal	O
-14	O	O
+13	antenatal	I
+14	O	I
 15	group	O
 16	mothers	O
 17	(	O
@@ -22477,17 +22477,17 @@
 1	Phosphatidylinositol	B
 2	3	I
 3	-	O
-4	kinase	I
+4	kinase	O
 5	requirement	O
 6	in	O
 7	activation	O
 8	of	O
 9	the	O
 10	ras	B
-11	/	I
+11	/	O
 12	C	I
 13	-	I
-14	raf	B
+14	raf	I
 15	-	I
 16	1	I
 17	/	O
@@ -22585,7 +22585,7 @@
 5	structure	O
 6	at	O
 7	the	O
-8	mouse	B
+8	mouse	O
 9	immunoglobulin	B
 10	kappa	I
 11	3	I
@@ -22598,7 +22598,7 @@
 3	ABL	B
 4	and	O
 5	v	B
-6	-	O
+6	-	I
 7	abl	I
 8	oncogenes	O
 9	induce	O
@@ -22700,7 +22700,7 @@
 25	elevation	O
 26	of	O
 27	the	O
-28	F	B
+28	F	O
 29	and	O
 30	F	B
 31	-	I
@@ -22946,7 +22946,7 @@
 8	the	O
 9	bone	O
 10	mineral	O
-11	density	O
+11	density	I
 12	in	O
 13	the	O
 14	whole	O
@@ -23002,7 +23002,7 @@
 5	activating	I
 6	kinase	I
 7	and	I
-8	RNA	B
+8	RNA	I
 9	polymerase	I
 10	II	I
 11	CTD	I
@@ -23063,11 +23063,11 @@
 22	a	O
 23	distinct	O
 24	T	O
-25	-	O
-26	cell	O
-27	-	O
-28	enriched	O
-29	protein	O
+25	-	I
+26	cell	I
+27	-	I
+28	enriched	I
+29	protein	I
 30	that	O
 31	binds	O
 32	to	O
@@ -23139,20 +23139,20 @@
 30	with	O
 31	proteins	O
 32	of	O
-33	herpes	O
+33	herpes	B
 34	simplex	I
 35	virus	I
 36	-	I
 37	1	I
-38	(	O
-39	HSV	B
+38	(	I
+39	HSV	I
 40	-	I
 41	1	I
 42	),	O
 43	pseudorabies	O
 44	virus	O
 45	(	O
-46	PRV	O
+46	PRV	B
 47	),	O
 48	equine	B
 49	herpesvirus	I
@@ -23163,7 +23163,7 @@
 54	varicella	B
 55	-	I
 56	zoster	I
-57	virus	O
+57	virus	I
 58	.	O
 
 1	In	O
@@ -23222,7 +23222,7 @@
 35	.	O
 
 1	Plasma	B
-2	renin	I
+2	renin	B
 3	activity	O
 4	does	O
 5	not	O
@@ -23339,7 +23339,7 @@
 20	,	O
 21	a	O
 22	ubiquitous	O
-23	bHLH	O
+23	bHLH	B
 24	/	O
 25	leucine	O
 26	zipper	O
@@ -23403,10 +23403,10 @@
 13	pregnancy	O
 14	-	O
 15	associated	O
-16	plasma	B
+16	plasma	O
 17	protein	I
-18	-	I
-19	A	I
+18	-	O
+19	A	O
 20	(	O
 21	PAPP	B
 22	-	I
@@ -23444,8 +23444,8 @@
 4	of	O
 5	the	O
 6	C	O
-7	terminal	O
-8	11	O
+7	terminal	I
+8	11	I
 9	or	O
 10	14	O
 11	amino	O
@@ -23636,8 +23636,8 @@
 23	activation	O
 24	of	O
 25	the	O
-26	substrate	B
-27	protein	I
+26	substrate	O
+27	protein	O
 28	MAPKAP	B
 29	kinase	I
 30	-	I
@@ -23677,8 +23677,8 @@
 17	region	O
 18	of	O
 19	chloroplast	O
-20	GAPDH	O
-21	genes	O
+20	GAPDH	B
+21	genes	I
 22	(	O
 23	GapA	O
 24	and	O
@@ -23694,7 +23694,7 @@
 3	that	O
 4	activation	O
 5	of	O
-6	c	B
+6	c	O
 7	-	I
 8	fosER	O
 9	mediated	O
@@ -23771,7 +23771,7 @@
 8	or	O
 9	the	O
 10	ets	B
-11	component	O
+11	component	I
 12	of	O
 13	this	O
 14	site	O
@@ -23933,10 +23933,10 @@
 62	).	O
 
 1	This	O
-2	Tbx6	O
-3	-	O
-4	subfamily	O
-5	gene	O
+2	Tbx6	B
+3	-	I
+4	subfamily	I
+5	gene	I
 6	is	O
 7	likely	O
 8	to	O
@@ -24046,9 +24046,9 @@
 13	to	O
 14	the	O
 15	ru	B
-16	/	O
-17	AB	O
-18	genes	O
+16	/	I
+17	AB	I
+18	genes	I
 19	,	O
 20	involved	O
 21	in	O
@@ -24060,19 +24060,19 @@
 27	pPSR1	O
 28	.	O
 
-1	Frog	O
+1	Frog	B
 2	type	O
-3	I	O
+3	I	I
 4	(	O
-5	Ft	O
-6	I	O
+5	Ft	B
+6	I	I
 7	)	O
 8	and	O
-9	frog	O
-10	type	O
+9	frog	B
+10	type	I
 11	II	I
 12	(	O
-13	Ft	B
+13	Ft	I
 14	II	I
 15	)	O
 16	slowly	O
@@ -24125,10 +24125,10 @@
 11	,	O
 12	such	O
 13	as	O
-14	tissue	B
-15	plasminogen	I
-16	activating	I
-17	substance	I
+14	tissue	O
+15	plasminogen	B
+16	activating	O
+17	substance	O
 18	,	O
 19	hormones	O
 20	(	O
@@ -24178,7 +24178,7 @@
 23	phosphorylation	O
 24	-	O
 25	dependent	O
-26	mobility	O
+26	mobility	I
 27	shift	O
 28	on	O
 29	sodium	O
@@ -24197,7 +24197,7 @@
 42	subunit	O
 43	sizes	O
 44	of	O
-45	RII	B
+45	RII	O
 46	beta	O
 47	(	O
 48	53	O
@@ -24207,14 +24207,14 @@
 52	than	O
 53	RII	B
 54	alpha	I
-55	dephosphoform	O
+55	dephosphoform	I
 56	(	O
 57	51	O
 58	kDa	O
 59	)	O
 60	greater	O
 61	than	O
-62	RI	O
+62	RI	B
 63	alpha	O
 64	(	O
 65	49	O
@@ -24225,7 +24225,7 @@
 2	characterize	O
 3	the	O
 4	gene	O
-5	products	O
+5	products	I
 6	,	O
 7	the	O
 8	cvaA	B
@@ -24239,7 +24239,7 @@
 16	control	O
 17	of	O
 18	T7	B
-19	RNA	I
+19	RNA	B
 20	polymerase	I
 21	promoter	I
 22	.	O
@@ -24254,8 +24254,8 @@
 8	pombe	O
 9	suppresses	O
 10	the	O
-11	ste13	B
-12	mutation	I
+11	ste13	O
+12	mutation	O
 13	.	O
 
 1	Significance	O
@@ -24415,8 +24415,8 @@
 10	recognize	O
 11	the	O
 12	XMyoDa	O
-13	TATA	O
-14	motif	O
+13	TATA	I
+14	motif	I
 15	.	O
 
 1	XXI	O
@@ -24708,7 +24708,7 @@
 6	that	O
 7	wild	O
 8	-	O
-9	type	O
+9	type	I
 10	Pan	O
 11	and	O
 12	CiD	O
@@ -24865,7 +24865,7 @@
 20	activity	O
 21	of	O
 22	the	O
-23	myogenic	O
+23	myogenic	B
 24	MyoD	B
 25	protein	I
 26	,	O
@@ -24877,7 +24877,7 @@
 32	paradigm	O
 33	of	O
 34	bHLH	B
-35	factors	I
+35	factors	O
 36	.	O
 
 1	Comparative	O
@@ -24885,9 +24885,9 @@
 3	of	O
 4	the	O
 5	Brassica	O
-6	S	O
+6	S	I
 7	locus	I
-8	region	O
+8	region	I
 9	and	O
 10	its	O
 11	homeolog	O
@@ -25049,8 +25049,8 @@
 5	shown	O
 6	that	O
 7	the	O
-8	dnHLH	B
-9	protein	I
+8	dnHLH	O
+9	protein	O
 10	Id1	O
 11	inhibits	O
 12	differentiation	O
@@ -25076,8 +25076,8 @@
 11	protein	O
 12	that	O
 13	contains	O
-14	HIV	O
-15	-	O
+14	HIV	B
+15	-	I
 16	2	I
 17	gag	I
 18	with	O
@@ -25240,7 +25240,7 @@
 46	the	O
 47	secretion	O
 48	of	O
-49	vascular	B
+49	vascular	O
 50	endothelial	I
 51	growth	I
 52	factor	I
@@ -25336,8 +25336,8 @@
 1	Comparison	O
 2	with	O
 3	the	O
-4	bovine	B
-5	gene	O
+4	bovine	O
+5	gene	I
 6	showed	O
 7	that	O
 8	the	O
@@ -25348,7 +25348,7 @@
 13	of	O
 14	the	O
 15	hATP1	B
-16	gene	O
+16	gene	I
 17	has	O
 18	an	O
 19	unconserved	O
@@ -25406,11 +25406,11 @@
 23	such	O
 24	as	O
 25	those	O
-26	encoding	O
+26	encoding	B
 27	phosphoenolpyruvate	B
 28	carboxykinase	I
 29	,	I
-30	tyrosine	B
+30	tyrosine	I
 31	aminotransferase	I
 32	,	O
 33	and	O
@@ -25450,7 +25450,7 @@
 7	the	O
 8	entire	O
 9	Cdc68	B
-10	protein	O
+10	protein	I
 11	,	O
 12	is	O
 13	highly	O
@@ -25482,8 +25482,8 @@
 3	FGF	B
 4	-	I
 5	2	I
-6	up	O
-7	-	O
+6	up	I
+7	-	I
 8	regulated	O
 9	the	O
 10	PKC	B
@@ -25500,7 +25500,7 @@
 21	contrast	O
 22	the	O
 23	HMW	O
-24	isoform	O
+24	isoform	I
 25	down	O
 26	-	O
 27	regulated	O
@@ -25596,8 +25596,8 @@
 12	determine	O
 13	that	O
 14	the	O
-15	UBE	B
-16	site	I
+15	UBE	O
+16	site	O
 17	has	O
 18	close	O
 19	similarity	O
@@ -25706,7 +25706,7 @@
 5	using	O
 6	a	O
 7	synthetic	O
-8	E6	O
+8	E6	B
 9	motif	O
 10	detected	O
 11	a	O
@@ -25962,7 +25962,7 @@
 14	,	O
 15	indicating	O
 16	that	O
-17	SBF	B
+17	SBF	O
 18	should	O
 19	not	O
 20	be	O
@@ -26020,7 +26020,7 @@
 11	regulation	O
 12	of	O
 13	nif	B
-14	/	O
+14	/	I
 15	fix	I
 16	gene	I
 17	expression	O
@@ -26033,16 +26033,16 @@
 24	.	O
 
 1	The	O
-2	human	O
-3	immunodeficiency	O
-4	virus	O
+2	human	B
+3	immunodeficiency	I
+4	virus	I
 5	type	I
 6	1	I
 7	(	O
 8	HIV	B
 9	-	I
 10	1	I
-11	)	O
+11	)	I
 12	Rev	B
 13	protein	I
 14	is	O
@@ -26383,8 +26383,8 @@
 23	the	O
 24	ubiquitously	O
 25	expressed	O
-26	bHLH	B
-27	protein	I
+26	bHLH	O
+27	protein	O
 28	E12	B
 29	/	O
 30	E47	O
@@ -26393,11 +26393,11 @@
 1	The	O
 2	concentrations	O
 3	of	O
-4	C4	O
+4	C4	B
 5	and	O
 6	C1	B
-7	-	O
-8	INH	O
+7	-	I
+8	INH	I
 9	increased	O
 10	with	O
 11	advancing	O
@@ -26462,8 +26462,8 @@
 13	,	O
 14	response	O
 15	to	O
-16	human	B
-17	immunoglobulin	I
+16	human	O
+17	immunoglobulin	B
 18	.	O
 
 1	It	O
@@ -26480,7 +26480,7 @@
 12	of	O
 13	the	O
 14	transcription	O
-15	factor	I
+15	factor	O
 16	Sp1	B
 17	.	O
 
@@ -26657,7 +26657,7 @@
 33	mineral	O
 34	,	O
 35	and	O
-36	collagen	B
+36	collagen	O
 37	concentrations	O
 38	.	O
 
@@ -26727,7 +26727,7 @@
 3	-	O
 4	K	O
 5	type	O
-6	1	I
+6	1	O
 7	and	O
 8	2	O
 9	clones	O
@@ -26871,7 +26871,7 @@
 21	by	O
 22	CRNK	O
 23	-	O
-24	16	O
+24	16	I
 25	cells	O
 26	,	O
 27	contrasting	O
@@ -26881,7 +26881,7 @@
 31	gamma	I
 32	R	I
 33	-	I
-34	related	I
+34	related	O
 35	mRNA	O
 36	species	O
 37	expressed	O
@@ -27025,7 +27025,7 @@
 10	upstream	O
 11	of	O
 12	exon	O
-13	1a	O
+13	1a	I
 14	and	O
 15	high	O
 16	G	O
@@ -27122,14 +27122,14 @@
 20	homolog	O
 21	of	O
 22	the	O
-23	G2	O
+23	G2	B
 24	/	O
 25	M	O
 26	spindle	O
-27	-	I
-28	regulatory	I
-29	protein	I
-30	Dim1p	I
+27	-	O
+28	regulatory	O
+29	protein	O
+30	Dim1p	O
 31	as	O
 32	a	O
 33	specific	O
@@ -27140,7 +27140,7 @@
 38	of	O
 39	HEF1	B
 40	encompassed	I
-41	in	O
+41	in	I
 42	p55	B
 43	(	O
 44	HEF1	B
@@ -27179,7 +27179,7 @@
 5	+	O
 6	strains	O
 7	,	O
-8	srjA	O
+8	srjA	B
 9	mutations	O
 10	conferred	O
 11	hyperrecombinational	O
@@ -27250,20 +27250,20 @@
 5	expression	O
 6	of	O
 7	DP	B
-8	family	I
-9	members	O
+8	family	O
+9	members	I
 10	suggests	O
 11	that	O
 12	the	O
 13	combination	O
 14	of	O
-15	DP	B
+15	DP	O
 16	/	O
 17	E2F	B
 18	heterodimers	O
 19	that	O
 20	constitute	O
-21	DRTF1	O
+21	DRTF1	B
 22	/	O
 23	E2F	B
 24	is	O
@@ -27561,11 +27561,11 @@
 28	.	O
 
 1	The	O
-2	E1	B
+2	E1	O
 3	replication	O
 4	protein	O
 5	of	O
-6	bovine	B
+6	bovine	O
 7	papillomavirus	O
 8	type	O
 9	1	O
@@ -27627,7 +27627,7 @@
 6	(	I
 7	initiator	I
 8	protein	I
-9	)	O
+9	)	I
 10	expression	O
 11	requires	O
 12	tap	O
@@ -27654,7 +27654,7 @@
 14	we	O
 15	used	O
 16	the	O
-17	mAb	B
+17	mAb	O
 18	3	O
 19	.	O
 20	2	O
@@ -27777,7 +27777,7 @@
 7	the	O
 8	10	O
 9	(	O
-10	4	O
+10	4	I
 11	)-	O
 12	to	O
 13	10	O
@@ -27799,7 +27799,7 @@
 29	the	O
 30	disfunction	O
 31	of	O
-32	alpha	B
+32	alpha	O
 33	TIF	I
 34	late	O
 35	in	O
@@ -27968,7 +27968,7 @@
 1	Its	O
 2	vasodilatory	O
 3	,	O
-4	anti	O
+4	anti	B
 5	-	O
 6	vasopressor	O
 7	,	O
@@ -28012,13 +28012,13 @@
 12	that	O
 13	these	O
 14	Arabidopsis	B
-15	GLP	B
+15	GLP	I
 16	subfamilies	I
 17	are	O
 18	unique	O
 19	from	O
 20	wheat	B
-21	germin	O
+21	germin	I
 22	.	O
 
 1	It	O
@@ -28093,7 +28093,7 @@
 6	efficiently	O
 7	suppress	O
 8	Myc	B
-9	-	I
+9	-	O
 10	dependent	O
 11	activation	O
 12	from	O
@@ -28190,22 +28190,22 @@
 3	of	O
 4	a	O
 5	nuclear	O
-6	gene	O
+6	gene	I
 7	encoding	O
 8	a	O
 9	mitochondrial	O
 10	fatty	I
 11	acid	I
 12	oxidation	O
-13	enzyme	O
+13	enzyme	I
 14	in	O
 15	transgenic	O
 16	mice	O
 17	:	O
 18	role	O
 19	for	O
-20	nuclear	O
-21	receptors	O
+20	nuclear	B
+21	receptors	I
 22	in	O
 23	cardiac	O
 24	and	O
@@ -28492,7 +28492,7 @@
 24	of	O
 25	intrasphincter	O
 26	botulinum	B
-27	toxin	I
+27	toxin	O
 28	injection	O
 29	in	O
 30	the	O
@@ -28624,9 +28624,9 @@
 8	from	O
 9	growth	O
 10	in	O
-11	M	B
+11	M	O
 12	-	O
-13	CSF	I
+13	CSF	O
 14	to	O
 15	GM	B
 16	-	I
@@ -28692,9 +28692,9 @@
 15	some	O
 16	of	O
 17	the	O
-18	DNA	O
-19	-	O
-20	protein	O
+18	DNA	B
+19	-	I
+20	protein	I
 21	complexes	O
 22	,	O
 23	although	O
@@ -28783,7 +28783,7 @@
 2	the	O
 3	icosahaedral	O
 4	MVMi	O
-5	capsid	O
+5	capsid	I
 6	,	O
 7	this	O
 8	sequence	O
@@ -28796,8 +28796,8 @@
 15	amphipathic	O
 16	beta	I
 17	-	I
-18	strand	O
-19	I	O
+18	strand	I
+19	I	I
 20	(	O
 21	betaI	O
 22	),	O
@@ -28912,7 +28912,7 @@
 21	the	O
 22	inclusion	O
 23	of	O
-24	Polycomb	B
+24	Polycomb	O
 25	protein	O
 26	in	O
 27	the	O
@@ -29006,8 +29006,8 @@
 1	The	O
 2	E	O
 3	-	O
-4	box	O
-5	sequence	O
+4	box	I
+5	sequence	I
 6	in	O
 7	the	O
 8	SE2	O
@@ -29029,7 +29029,7 @@
 24	consensus	O
 25	E	O
 26	-	O
-27	box	O
+27	box	I
 28	elements	O
 29	(	O
 30	CANNTG	O
@@ -29081,7 +29081,7 @@
 41	of	O
 42	the	O
 43	complete	O
-44	TR	B
+44	TR	O
 45	.	O
 
 1	We	O
@@ -29234,7 +29234,7 @@
 14	confirmed	O
 15	that	O
 16	NQO2	O
-17	gene	O
+17	gene	I
 18	encodes	O
 19	for	O
 20	a	O
@@ -29263,9 +29263,9 @@
 12	which	O
 13	encodes	O
 14	a	O
-15	5	O
-16	'-	O
-17	3	O
+15	5	B
+16	'-	I
+17	3	I
 18	'	O
 19	exonuclease	O
 20	,	O
@@ -29303,7 +29303,7 @@
 52	the	O
 53	wild	B
 54	-	I
-55	type	I
+55	type	O
 56	HIS4	I
 57	mRNA	I
 58	level	O
@@ -29387,7 +29387,7 @@
 28	CGP	O
 29	7040	O
 30	(	O
-31	C70	O
+31	C70	B
 32	)	O
 33	and	O
 34	CGP	O
@@ -29689,7 +29689,7 @@
 11	of	O
 12	the	O
 13	CCK	B
-14	promoter	I
+14	promoter	O
 15	contains	O
 16	a	O
 17	transcriptional	O
@@ -29717,20 +29717,20 @@
 39	manner	O
 40	.	O
 
-1	A	I
-2	4	I
+1	A	O
+2	4	O
 3	.	O
 4	8	O
 5	-	O
 6	kilobase	O
 7	BamHI	B
-8	-	I
+8	-	O
 9	HindIII	I
 10	fragment	I
 11	encoding	O
 12	the	O
-13	entire	O
-14	Neurospora	B
+13	entire	B
+14	Neurospora	I
 15	crassa	I
 16	CuZn	I
 17	superoxide	I
@@ -29916,9 +29916,9 @@
 8	sites	I
 9	in	O
 10	the	O
-11	Rous	O
-12	sarcoma	O
-13	virus	O
+11	Rous	B
+12	sarcoma	I
+13	virus	I
 14	long	I
 15	terminal	I
 16	repeat	I
@@ -29956,8 +29956,8 @@
 2	of	O
 3	the	O
 4	titin	B
-5	/	O
-6	myosin	B
+5	/	I
+6	myosin	I
 7	light	I
 8	chain	I
 9	kinase	I
@@ -29972,7 +29972,7 @@
 18	of	O
 19	the	O
 20	actin	B
-21	/	I
+21	/	O
 22	myosin	I
 23	cytoskeleton	I
 24	,	O
@@ -30046,8 +30046,8 @@
 1	Detection	O
 2	of	O
 3	anti	B
-4	-	O
-5	lymphocyte	O
+4	-	I
+5	lymphocyte	I
 6	antibodies	I
 7	using	O
 8	the	O
@@ -30145,7 +30145,7 @@
 1	Using	O
 2	mutated	O
 3	IL2R	B
-4	alpha	B
+4	alpha	I
 5	promoter	I
 6	constructs	O
 7	in	O
@@ -30192,7 +30192,7 @@
 7	body	O
 8	of	O
 9	the	O
-10	horse	B
+10	horse	O
 
 1	Furthermore	O
 2	the	O
@@ -30292,7 +30292,7 @@
 
 1	Increasing	O
 2	the	O
-3	cut	B
+3	cut	O
 4	-	O
 5	off	O
 6	point	O
@@ -30426,10 +30426,10 @@
 6	essential	O
 7	GT	O
 8	-	O
-9	IIC	O
-10	-	O
+9	IIC	B
+10	-	I
 11	like	O
-12	enhanson	O
+12	enhanson	I
 13	in	O
 14	the	O
 15	context	O
@@ -30451,7 +30451,7 @@
 31	mimic	O
 32	the	O
 33	intact	O
-34	CSEn	B
+34	CSEn	O
 35	enhancer	O
 36	/	O
 37	silencer	O
@@ -30719,7 +30719,7 @@
 13	to	O
 14	the	O
 15	oxyR	B
-16	-	I
+16	-	O
 17	ahpC	O
 18	intergenic	O
 19	region	O
@@ -30791,7 +30791,7 @@
 14	to	O
 15	the	O
 16	kinase	O
-17	CheA	O
+17	CheA	I
 18	.	O
 
 1	According	O
@@ -30827,12 +30827,12 @@
 31	arising	O
 32	of	O
 33	anti	B
-34	-	I
-35	SF	I
+34	-	O
+35	SF	B
 36	group	I
-37	rickettsiae	I
+37	rickettsiae	O
 38	(	O
-39	SFGR	B
+39	SFGR	O
 40	)	O
 41	antibody	O
 42	in	O
@@ -30943,9 +30943,9 @@
 56	m	B
 57	-	I
 58	2	I
-59	s	I
-60	-	I
-61	1	I
+59	s	O
+60	-	O
+61	1	O
 62	),	O
 63	and	O
 64	artificial	O
@@ -30972,7 +30972,7 @@
 
 1	Skn	B
 2	-	O
-3	1a	O
+3	1a	I
 4	lacking	O
 5	the	O
 6	C	O
@@ -31053,10 +31053,10 @@
 25	position	O
 26	in	O
 27	the	O
-28	alpha	B
-29	1	I
-30	-	I
-31	syntrophin	I
+28	alpha	O
+29	1	O
+30	-	O
+31	syntrophin	O
 32	gene	O
 33	.	O
 
@@ -31064,9 +31064,9 @@
 2	of	O
 3	endogenous	O
 4	or	O
-5	exogenous	O
-6	G	O
-7	(	O
+5	exogenous	B
+6	G	I
+7	(	I
 8	q	I
 9	)-	I
 10	coupled	I
@@ -31104,7 +31104,7 @@
 8	of	O
 9	Urat	O
 10	-	O
-11	I	O
+11	I	I
 12	lithotriptor	O
 13	.	O
 
@@ -31150,7 +31150,7 @@
 1	The	O
 2	Saccharomyces	O
 3	cerevisiae	O
-4	GAL1	O
+4	GAL1	I
 5	and	O
 6	GAL10	B
 7	genes	I
@@ -31292,7 +31292,7 @@
 68	.	O
 
 1	A	O
-2	chimeric	O
+2	chimeric	B
 3	VP16	B
 4	-	I
 5	Tat	I
@@ -31330,8 +31330,8 @@
 8	.	O
 
 1	Wild	O
-2	-	O
-3	type	O
+2	-	I
+3	type	I
 4	protein	O
 5	bound	O
 6	azido	O
@@ -31614,7 +31614,7 @@
 25	c	B
 26	-	I
 27	fos	I
-28	oncogene	I
+28	oncogene	O
 29	.	O
 
 1	the	O
@@ -31725,9 +31725,9 @@
 6	patients	O
 7	with	O
 8	chronic	O
-9	hepatitis	O
-10	C	O
-11	respond	O
+9	hepatitis	B
+10	C	I
+11	respond	I
 12	well	O
 13	to	O
 14	interferon	B
@@ -31950,11 +31950,11 @@
 
 1	Transcription	O
 2	from	O
-3	adenovirus	O
+3	adenovirus	B
 4	E2	B
 5	-	I
 6	early	I
-7	promoter	I
+7	promoter	O
 8	is	O
 9	controlled	O
 10	by	O
@@ -32005,7 +32005,7 @@
 10	A	I
 11	kinase	I
 12	anchor	I
-13	protein	O
+13	protein	I
 14	200	O
 15	(	O
 16	DAKAP200	O
@@ -32045,9 +32045,9 @@
 
 1	Responsiveness	O
 2	to	O
-3	beta	B
+3	beta	O
 4	-	O
-5	2	I
+5	2	O
 6	agonist	O
 7	therapy	O
 8	was	O
@@ -32099,16 +32099,16 @@
 
 1	Two	O
 2	new	O
-3	glucosidase	O
+3	glucosidase	B
 4	inhibitors	O
 5	(	O
 6	BAY	O
-7	m	O
-8	1099	O
+7	m	B
+8	1099	I
 9	and	O
-10	BAY	O
+10	BAY	B
 11	o	I
-12	1248	O
+12	1248	I
 13	)	O
 14	were	O
 15	studied	O
@@ -32323,7 +32323,7 @@
 
 1	Three	O
 2	mog	B
-3	-	O
+3	-	I
 4	1	I
 5	alleles	O
 6	possess	O
@@ -32355,7 +32355,7 @@
 32	mog	B
 33	-	I
 34	1	I
-35	mRNA	I
+35	mRNA	O
 36	is	O
 37	expressed	O
 38	in	O
@@ -32513,7 +32513,7 @@
 16	.	O
 
 1	The	O
-2	pre	O
+2	pre	B
 3	-	O
 4	mRNA	O
 5	splicing	O
@@ -32569,7 +32569,7 @@
 24	completely	O
 25	inhibited	O
 26	bacterial	O
-27	urease	I
+27	urease	O
 28	.	O
 
 1	The	O
@@ -32584,7 +32584,7 @@
 10	also	O
 11	known	O
 12	to	O
-13	bend	O
+13	bend	B
 14	DNA	O
 15	upon	O
 16	binding	O
@@ -32607,7 +32607,7 @@
 15	comparable	O
 16	.	O
 
-1	Serum	B
+1	Serum	O
 2	gastrin	B
 3	and	O
 4	AFP	B
@@ -32668,7 +32668,7 @@
 7	almost	O
 8	identical	O
 9	152	O
-10	-	O
+10	-	I
 11	aa	O
 12	proteins	O
 13	which	O
@@ -32728,7 +32728,7 @@
 5	splicing	O
 6	of	O
 7	human	O
-8	ORL1	I
+8	ORL1	O
 9	and	O
 10	GAIP	O
 11	are	O
@@ -32744,7 +32744,7 @@
 4	peptide	O
 5	:	O
 6	MBP	B
-7	fusions	O
+7	fusions	I
 8	were	O
 9	also	O
 10	analyzed	O
@@ -32936,7 +32936,7 @@
 8	pathway	O
 9	controlling	O
 10	the	O
-11	stress	B
+11	stress	O
 12	activated	O
 13	Sty1	B
 14	/	O
@@ -32961,7 +32961,7 @@
 11	and	O
 12	J	O
 13	(	O
-14	H	B
+14	H	O
 15	)	O
 16	gene	O
 17	segments	O
@@ -33090,7 +33090,7 @@
 8	-	I
 9	mfa	I
 10	domain	I
-11	-	O
+11	-	I
 12	containing	O
 13	protein	O
 14	that	O
@@ -33268,7 +33268,7 @@
 29	activation	O
 30	of	O
 31	promoter	O
-32	P1	O
+32	P1	I
 33	by	O
 34	the	O
 35	Ig	B
@@ -33305,7 +33305,7 @@
 4	a	O
 5	novel	O
 6	yeast	O
-7	protein	O
+7	protein	I
 8	suppress	O
 9	the	O
 10	lethality	O
@@ -33325,10 +33325,10 @@
 24	.	O
 
 1	Human	B
-2	isoforms	O
+2	isoforms	I
 3	,	O
 4	designated	O
-5	1	O
+5	1	I
 6	to	O
 7	4	I
 8	,	O
@@ -33349,8 +33349,8 @@
 4	by	O
 5	which	O
 6	the	O
-7	tumor	B
-8	suppressor	I
+7	tumor	O
+8	suppressor	O
 9	p53	I
 10	maintains	O
 11	genomic	O
@@ -33367,8 +33367,8 @@
 22	the	O
 23	cyclin	B
 24	-	I
-25	dependent	I
-26	kinase	I
+25	dependent	O
+26	kinase	O
 27	inhibitor	O
 28	p21	B
 29	(	O
@@ -33484,7 +33484,7 @@
 35	vacuolar	O
 36	-	O
 37	type	O
-38	ATPase	I
+38	ATPase	O
 39	.	O
 
 1	Nucleotide	O
@@ -33493,9 +33493,9 @@
 4	of	O
 5	the	O
 6	Pseudomonas	B
-7	putida	O
-8	PpG7	B
-9	salicylate	B
+7	putida	I
+8	PpG7	I
+9	salicylate	I
 10	hydroxylase	I
 11	gene	I
 12	(	O
@@ -33546,10 +33546,10 @@
 13	BiP	B
 14	by	O
 15	hybrid	O
-16	-	O
+16	-	I
 17	selected	O
-18	mRNA	O
-19	translation	O
+18	mRNA	I
+19	translation	I
 20	.	O
 
 1	During	O
@@ -33607,7 +33607,7 @@
 15	GrpE	O
 16	,	O
 17	in	O
-18	refolding	B
+18	refolding	O
 19	denatured	O
 20	firefly	B
 21	luciferase	I
@@ -33757,7 +33757,7 @@
 11	IRF	B
 12	-	I
 13	2	I
-14	acts	O
+14	acts	I
 15	as	O
 16	a	O
 17	repressor	O
@@ -33955,7 +33955,7 @@
 3	amniotic	O
 4	fluid	O
 5	alpha	O
-6	fetoprotein	I
+6	fetoprotein	O
 7	levels	O
 8	resulting	O
 9	from	O
@@ -33997,8 +33997,8 @@
 25	myc	I
 26	genes	I
 27	or	O
-28	chimeric	O
-29	genes	O
+28	chimeric	B
+29	genes	I
 30	in	O
 31	which	O
 32	various	O
@@ -34086,8 +34086,8 @@
 26	screened	O
 27	for	O
 28	possible	O
-29	cooperating	O
-30	transcription	O
+29	cooperating	B
+30	transcription	I
 31	factors	I
 32	.	O
 
@@ -34115,7 +34115,7 @@
 3	hematopoietic	B
 4	growth	I
 5	factor	I
-6	prescriptions	O
+6	prescriptions	I
 7	in	O
 8	19	O
 9	french	O
@@ -34231,7 +34231,7 @@
 4	of	O
 5	other	O
 6	duplicated	O
-7	ribosomal	B
+7	ribosomal	O
 8	protein	O
 9	genes	O
 10	which	O
@@ -34315,7 +34315,7 @@
 18	that	O
 19	the	O
 20	102kD	B
-21	protein	O
+21	protein	I
 22	interacts	O
 23	within	O
 24	the	O
@@ -34346,7 +34346,7 @@
 5	plexus	O
 6	with	O
 7	the	O
-8	nerve	O
+8	nerve	B
 9	stimulator	O
 10	is	O
 11	equally	O
@@ -34449,10 +34449,10 @@
 19	inversely	O
 20	associated	O
 21	with	O
-22	sex	B
-23	hormone	I
+22	sex	O
+23	hormone	O
 24	binding	O
-25	globulin	I
+25	globulin	B
 26	(	O
 27	SHBG	B
 28	)	O
@@ -34538,9 +34538,9 @@
 15	the	O
 16	heterodimeric	O
 17	nascent	O
-18	-	O
-19	polypeptide	O
-20	-	O
+18	-	I
+19	polypeptide	I
+20	-	I
 21	associated	O
 22	complex	O
 23	(	O
@@ -34633,7 +34633,7 @@
 7	domain	O
 8	of	O
 9	the	O
-10	human	B
+10	human	O
 11	trk	B
 12	proto	I
 13	-	I
@@ -34719,7 +34719,7 @@
 8	,	O
 9	a	O
 10	small	B
-11	nuclear	I
+11	nuclear	B
 12	GTPase	I
 13	of	O
 14	the	O
@@ -34750,7 +34750,7 @@
 5	of	O
 6	the	O
 7	yeast	O
-8	early	O
+8	early	I
 9	meiotic	O
 10	recombination	O
 11	genes	O
@@ -34769,10 +34769,10 @@
 6	the	O
 7	increase	O
 8	in	O
-9	alpha	B
-10	-	I
-11	adrenergic	I
-12	receptors	I
+9	alpha	O
+10	-	O
+11	adrenergic	O
+12	receptors	O
 13	makes	O
 14	the	O
 15	prostate	O
@@ -34798,8 +34798,8 @@
 3	to	O
 4	full	O
 5	-	O
-6	length	I
-7	E2F	B
+6	length	O
+7	E2F	I
 8	-	I
 9	3	I
 10	,	O
@@ -34927,7 +34927,7 @@
 14	of	O
 15	apolipoprotein	B
 16	B	I
-17	-	I
+17	-	O
 18	containing	O
 19	lipoproteins	O
 20	and	O
@@ -34961,7 +34961,7 @@
 13	.	O
 
 1	GAL4	B
-2	-	O
+2	-	I
 3	VP16	I
 4	-	O
 5	mediated	O
@@ -35119,8 +35119,8 @@
 9	that	O
 10	within	O
 11	human	O
-12	placental	O
-13	mitochondria	O
+12	placental	I
+13	mitochondria	I
 14	there	O
 15	is	O
 16	a	O
@@ -35207,7 +35207,7 @@
 51	-	O
 52	SR	B
 53	alpha	I
-54	-	I
+54	-	O
 55	296	O
 56	)	O
 57	in	O
@@ -35373,8 +35373,8 @@
 2	disruption	O
 3	of	O
 4	the	O
-5	OGG1	O
-6	gene	O
+5	OGG1	B
+6	gene	I
 7	in	O
 8	yeast	O
 9	revealed	O
@@ -35428,7 +35428,7 @@
 21	chicks	O
 22	treated	O
 23	with	O
-24	ILK	B
+24	ILK	O
 25	was	O
 26	dramatically	O
 27	reduced	O
@@ -35536,7 +35536,7 @@
 3	(	O
 4	HK	O
 5	)	O
-6	SF	O
+6	SF	B
 7	-	O
 8	36	O
 9	survey	O
@@ -35822,9 +35822,9 @@
 67	mL	O
 68	phytohemagglutinin	B
 69	plus	O
-70	10	O
+70	10	I
 71	(-	O
-72	7	O
+72	7	I
 73	)	O
 74	mol	O
 75	/	O
@@ -35846,7 +35846,7 @@
 91	or	O
 92	10	O
 93	(-	O
-94	7	O
+94	7	I
 95	)	O
 96	mol	O
 97	/	O
@@ -35870,9 +35870,9 @@
 15	we	O
 16	cloned	O
 17	human	O
-18	SOCS	I
-19	-	I
-20	3	I
+18	SOCS	O
+19	-	O
+20	3	O
 21	by	O
 22	reverse	O
 23	transcription	O
@@ -35882,7 +35882,7 @@
 27	reaction	O
 28	from	O
 29	human	O
-30	skeletal	I
+30	skeletal	O
 31	muscle	O
 32	mRNA	O
 33	.	O
@@ -35962,10 +35962,10 @@
 13	the	O
 14	rat	O
 15	androgen	O
-16	-	O
+16	-	I
 17	binding	I
 18	protein	I
-19	gene	I
+19	gene	O
 20	.	O
 
 1	Comparison	O
@@ -35975,9 +35975,9 @@
 5	nuclear	O
 6	tRNA	I
 7	3	I
-8	'	O
+8	'	I
 9	processing	O
-10	enzyme	O
+10	enzyme	I
 11	with	O
 12	the	O
 13	plant	O
@@ -36003,7 +36003,7 @@
 4	and	O
 5	Mad	B
 6	might	O
-7	antagonize	O
+7	antagonize	B
 8	Myc	B
 9	function	O
 10	and	O
@@ -36018,7 +36018,7 @@
 2	,	O
 3	the	O
 4	truncated	O
-5	deer	O
+5	deer	I
 6	receptor	I
 7	lacks	O
 8	the	O
@@ -36053,7 +36053,7 @@
 3	the	O
 4	class	O
 5	C	O
-6	-	I
+6	-	O
 7	Vps	O
 8	complex	O
 9	directs	O
@@ -36107,7 +36107,7 @@
 19	the	O
 20	two	O
 21	TK	B
-22	genes	I
+22	genes	O
 23	,	O
 24	recombination	O
 25	was	O
@@ -36187,7 +36187,7 @@
 7	recognize	O
 8	the	O
 9	G	O
-10	-	O
+10	-	I
 11	box	I
 12	motif	I
 13	,	O
@@ -36311,8 +36311,8 @@
 2	dnaK	B
 3	operon	I
 4	of	O
-5	Bacillus	O
-6	subtilis	O
+5	Bacillus	I
+6	subtilis	I
 7	is	O
 8	heptacistronic	O
 9	.	O
@@ -36378,19 +36378,19 @@
 17	sequence	O
 18	of	O
 19	rat	O
-20	testis	I
+20	testis	B
 21	fructose	I
 22	-	I
 23	6	I
 24	-	I
 25	phosphate	I
-26	,	O
+26	,	I
 27	2	I
 28	-	I
 29	kinase	I
 30	:	O
-31	fructose	O
-32	-	O
+31	fructose	I
+32	-	I
 33	2	I
 34	,	O
 35	6	O
@@ -36486,7 +36486,7 @@
 8	EBP	I
 9	-	I
 10	binding	I
-11	site	O
+11	site	I
 12	within	O
 13	the	O
 14	Gadd45gamma	B
@@ -36495,9 +36495,9 @@
 17	C	B
 18	/	I
 19	EBPbeta	I
-20	and	O
+20	and	I
 21	C	B
-22	/	O
+22	/	I
 23	EBPdelta	I
 24	could	O
 25	bind	O
@@ -36518,7 +36518,7 @@
 40	analysis	O
 41	.	O
 
-1	Circularized	B
+1	Circularized	O
 2	Ac	B
 3	/	O
 4	Ds	B
@@ -36574,7 +36574,7 @@
 41	related	O
 42	to	O
 43	AP1	B
-44	transrepression	I
+44	transrepression	O
 45	.	O
 
 1	Finally	O
@@ -36624,16 +36624,16 @@
 45	the	O
 46	rat	O
 47	APP	B
-48	promoter	I
+48	promoter	O
 49	.	O
 
 1	Anti	B
 2	-	I
 3	hepatitis	I
 4	A	I
-5	virus	O
-6	(	O
-7	HAV	B
+5	virus	I
+6	(	I
+7	HAV	I
 8	)	O
 9	titer	O
 10	after	O
@@ -36654,7 +36654,7 @@
 25	.	O
 
 1	Human	B
-2	ULK1	I
+2	ULK1	B
 3	,	O
 4	a	O
 5	novel	O
@@ -36663,7 +36663,7 @@
 8	threonine	I
 9	kinase	I
 10	related	I
-11	to	O
+11	to	I
 12	UNC	B
 13	-	I
 14	51	I
@@ -36721,15 +36721,15 @@
 16	sites	O
 17	for	O
 18	germline	O
-19	epsilon	O
-20	RNA	O
+19	epsilon	I
+20	RNA	I
 21	were	O
 22	ligated	O
 23	to	O
 24	a	O
 25	luciferase	B
-26	reporter	I
-27	gene	I
+26	reporter	O
+27	gene	O
 28	and	O
 29	transfected	O
 30	into	O
@@ -36767,10 +36767,10 @@
 14	stimulation	O
 15	the	O
 16	addicts	B
-17	'	I
-18	FSH	B
-19	and	O
-20	LH	B
+17	'	O
+18	FSH	I
+19	and	I
+20	LH	I
 21	values	O
 22	increased	O
 23	but	O
@@ -36793,8 +36793,8 @@
 10	,	O
 11	alpha	B
 12	2	I
-13	-	I
-14	macroglobulin	I
+13	-	O
+14	macroglobulin	O
 15	,	O
 16	and	O
 17	antithrombin	B
@@ -36878,7 +36878,7 @@
 6	encoding	O
 7	both	O
 8	chloroplastic	B
-9	ascorbate	I
+9	ascorbate	B
 10	peroxidase	I
 11	isoenzymes	I
 12	was	O
@@ -36959,7 +36959,7 @@
 30	reduced	O
 31	wild	O
 32	-	O
-33	type	I
+33	type	O
 34	OxyR	B
 35	.	O
 
@@ -36969,7 +36969,7 @@
 4	requirements	O
 5	for	O
 6	CBF2	B
-7	binding	O
+7	binding	I
 8	,	O
 9	we	O
 10	synthesized	O
@@ -37114,8 +37114,8 @@
 3	human	O
 4	and	O
 5	murine	O
-6	blk	O
-7	sequences	O
+6	blk	I
+7	sequences	I
 8	indicated	O
 9	that	O
 10	they	O
@@ -37194,7 +37194,7 @@
 28	with	O
 29	different	O
 30	cyclin	B
-31	partners	I
+31	partners	O
 32	(	O
 33	Pcls	O
 34	).	O
@@ -37218,8 +37218,8 @@
 17	of	O
 18	the	O
 19	Escherichia	O
-20	coli	I
-21	fru	I
+20	coli	O
+21	fru	O
 22	transcriptional	O
 23	regulator	O
 24	was	O
@@ -37237,9 +37237,9 @@
 36	with	O
 37	the	O
 38	fused	O
-39	gene	O
-40	encoding	O
-41	glutathione	B
+39	gene	B
+40	encoding	I
+41	glutathione	I
 42	S	I
 43	-	I
 44	transferase	I
@@ -37410,7 +37410,7 @@
 16	.	O
 
 1	The	O
-2	rat	O
+2	rat	B
 3	branched	B
 4	-	I
 5	chain	I
@@ -37423,7 +37423,7 @@
 12	dehydrogenase	I
 13	(	O
 14	BCOD	B
-15	)	O
+15	)	I
 16	kinase	I
 17	mRNA	O
 18	is	O
@@ -37454,8 +37454,8 @@
 43	.	O
 
 1	The	O
-2	epitope	O
-3	-	O
+2	epitope	B
+3	-	I
 4	protected	O
 5	lysine	O
 6	(	O
@@ -37557,11 +37557,11 @@
 2	-(	O
 3	N	O
 4	-	O
-5	Alkyl	O
+5	Alkyl	B
 6	-	O
-7	N	O
+7	N	B
 8	-	O
-9	2	O
+9	2	I
 10	-	O
 11	chloroethylaminomethyl	O
 12	)-	O
@@ -37569,8 +37569,8 @@
 14	-	O
 15	or	O
 16	7	O
-17	-	O
-18	halogenobenzo	O
+17	-	I
+18	halogenobenzo	I
 19	[	O
 20	b	O
 21	]	O
@@ -37591,7 +37591,7 @@
 11	levels	O
 12	of	O
 13	endogenous	O
-14	D3	O
+14	D3	I
 15	mRNA	O
 16	,	O
 17	as	O
@@ -37722,11 +37722,11 @@
 8	the	O
 9	production	O
 10	of	O
-11	G	O
+11	G	B
 12	.	O
 13	C	I
-14	-->	O
-15	T	O
+14	-->	I
+15	T	I
 16	.	O
 17	A	O
 18	transversions	O
@@ -37747,22 +37747,22 @@
 33	that	O
 34	for	O
 35	rad6	B
-36	-	O
+36	-	I
 37	mediated	O
-38	G	O
+38	G	B
 39	.	O
 40	C	I
-41	-->	O
-42	T	O
+41	-->	I
+42	T	I
 43	.	O
 44	A	O
 45	transversion	O
 46	.	O
 
-1	Recombinant	O
-2	BRI1	O
-3	-	O
-4	KD	O
+1	Recombinant	B
+2	BRI1	I
+3	-	I
+4	KD	I
 5	autophosphorylated	O
 6	on	O
 7	serine	O
@@ -37953,8 +37953,8 @@
 9	and	O
 10	/	O
 11	or	O
-12	Tyr	O
-13	15	O
+12	Tyr	B
+13	15	I
 14	inhibits	O
 15	p34cdc2	B
 16	kinase	I
@@ -38017,9 +38017,9 @@
 36	.	O
 
 1	Both	O
-2	receptors	I
+2	receptors	O
 3	utilize	O
-4	protein	I
+4	protein	B
 5	tyrosine	I
 6	kinases	I
 7	(	O
@@ -38055,8 +38055,8 @@
 7	in	O
 8	which	O
 9	tobacco	O
-10	etch	O
-11	virus	O
+10	etch	I
+11	virus	I
 12	(	O
 13	TEV	B
 14	)	O
@@ -38072,33 +38072,33 @@
 24	were	O
 25	inoculated	O
 26	with	O
-27	NIb	O
-28	-	O
-29	defective	O
-30	TEV	O
+27	NIb	B
+28	-	I
+29	defective	I
+30	TEV	I
 31	mutants	I
 32	.	O
 
 1	Human	O
 2	T	O
-3	-	I
+3	-	O
 4	cell	O
-5	leukemia	O
+5	leukemia	I
 6	virus	O
-7	type	O
-8	I	O
+7	type	I
+8	I	I
 9	(	O
 10	HTLV	O
-11	-	O
-12	I	O
+11	-	I
+12	I	I
 13	)	O
 14	encodes	O
 15	a	O
-16	40	O
-17	-	O
-18	kDa	O
-19	nuclear	O
-20	protein	O
+16	40	B
+17	-	I
+18	kDa	I
+19	nuclear	I
+20	protein	I
 21	,	O
 22	Tax	B
 23	,	O
@@ -38247,7 +38247,7 @@
 14	of	O
 15	both	O
 16	Ty1	B
-17	transposition	O
+17	transposition	I
 18	and	O
 19	invasive	O
 20	growth	O
@@ -38331,7 +38331,7 @@
 16	metastasis	O
 17	.	O
 
-1	AP	B
+1	AP	O
 2	was	O
 3	induced	O
 4	by	O
@@ -38724,7 +38724,7 @@
 13	angiotensin	B
 14	II	I
 15	(	O
-16	AII	O
+16	AII	I
 17	)	O
 18	analog	O
 19	[	O
@@ -39015,9 +39015,9 @@
 3	of	O
 4	the	O
 5	transactivator	B
-6	protein	I
+6	protein	O
 7	IE2	B
-8	-	I
+8	-	O
 9	p86	I
 10	of	O
 11	human	O
@@ -39027,12 +39027,12 @@
 15	to	O
 16	the	O
 17	ubiquitin	B
-18	-	I
-19	homologous	I
-20	proteins	I
-21	SUMO	I
-22	-	I
-23	1	I
+18	-	O
+19	homologous	O
+20	proteins	O
+21	SUMO	O
+22	-	O
+23	1	O
 24	and	O
 25	hSMT3b	O
 26	.	O
@@ -39078,7 +39078,7 @@
 24	of	O
 25	ORF	O
 26	-	O
-27	2	I
+27	2	O
 28	in	O
 29	a	O
 30	baculovirus	O
@@ -39114,7 +39114,7 @@
 17	that	O
 18	of	O
 19	the	O
-20	ThrRS	O
+20	ThrRS	B
 21	/	O
 22	CGU	O
 23	operator	O
@@ -39189,7 +39189,7 @@
 5	5	O
 6	KE	O
 7	X	I
-8	3	I
+8	3	O
 9	/	O
 10	W	O
 11	may	O
@@ -39240,7 +39240,7 @@
 9	/	O
 10	dpm1	O
 11	(+)	O
-12	S	O
+12	S	I
 13	.	O
 14	pombe	O
 15	diploid	O
@@ -39254,7 +39254,7 @@
 23	in	O
 24	specific	O
 25	DPM	O
-26	synthase	I
+26	synthase	O
 27	activity	O
 28	.	O
 
@@ -39276,7 +39276,7 @@
 16	the	O
 17	effect	O
 18	of	O
-19	liposome	B
+19	liposome	O
 20	-	O
 21	encapsulated	O
 22	superoxide	B
@@ -39344,7 +39344,7 @@
 
 1	METHODS	O
 2	:	O
-3	109	O
+3	109	B
 4	suspected	O
 5	cases	O
 6	with	O
@@ -39546,8 +39546,8 @@
 37	IG	O
 38	,	O
 39	and	O
-40	GS	B
-41	sequences	I
+40	GS	O
+41	sequences	O
 42	)	O
 43	located	O
 44	between	O
@@ -39557,14 +39557,14 @@
 48	neuraminidase	I
 49	(	O
 50	HN	B
-51	)	O
+51	)	I
 52	and	O
 53	the	O
-54	polymerase	O
+54	polymerase	I
 55	(	O
 56	L	I
-57	)	O
-58	genes	O
+57	)	I
+58	genes	I
 59	were	O
 60	replaced	O
 61	with	O
@@ -39631,7 +39631,7 @@
 
 1	Interaction	O
 2	of	O
-3	HRI	O
+3	HRI	B
 4	with	O
 5	Hsc70	O
 6	was	O
@@ -39640,7 +39640,7 @@
 9	the	O
 10	transformation	O
 11	of	O
-12	HRI	O
+12	HRI	B
 13	,	O
 14	as	O
 15	the	O
@@ -39652,7 +39652,7 @@
 21	the	O
 22	folding	O
 23	of	O
-24	HRI	O
+24	HRI	B
 25	into	O
 26	a	O
 27	mature	O
@@ -39709,7 +39709,7 @@
 4	IMP	O
 5	:	O
 6	L	B
-7	-	O
+7	-	I
 8	aspartate	I
 9	ligase	I
 10	(	O
@@ -39719,10 +39719,10 @@
 14	6	I
 15	.	I
 16	3	I
-17	.	O
+17	.	I
 18	4	I
-19	.	O
-20	4	O
+19	.	I
+20	4	I
 21	)	O
 22	plays	O
 23	an	O
@@ -39749,7 +39749,7 @@
 4	site	O
 5	for	O
 6	the	O
-7	transcription	O
+7	transcription	B
 8	factor	I
 9	SP1	I
 10	was	O
@@ -39781,7 +39781,7 @@
 11	to	O
 12	Cot40	O
 13	-	O
-14	2	I
+14	2	O
 15	by	O
 16	SDS	O
 17	-	O
@@ -39849,22 +39849,22 @@
 5	34	O
 6	isolates	O
 7	),	O
-8	LON	O
+8	LON	B
 9	-	O
 10	73	O
 11	(	O
 12	1	O
 13	),	O
-14	LON	O
+14	LON	B
 15	-	O
 16	71	O
 17	(	O
 18	2	O
 19	)	O
 20	and	O
-21	LON	O
-22	-	O
-23	10	O
+21	LON	B
+22	-	I
+23	10	I
 24	(	O
 25	2	O
 26	)	O
@@ -39901,8 +39901,8 @@
 14	.	O
 
 1	Interleukin	B
-2	-	O
-3	12	O
+2	-	I
+3	12	I
 4	(	O
 5	IL	B
 6	-	I
@@ -39964,7 +39964,7 @@
 7	with	O
 8	HLA	B
 9	-	I
-10	B5	O
+10	B5	I
 11	.	O
 
 1	Expression	O
@@ -40228,7 +40228,7 @@
 5	showed	O
 6	that	O
 7	PLP	B
-8	-	O
+8	-	I
 9	H	I
 10	as	O
 11	well	O
@@ -40271,7 +40271,7 @@
 9	associate	O
 10	directly	O
 11	with	O
-12	nascent	O
+12	nascent	B
 13	RNA	B
 14	polymerase	I
 15	II	I
@@ -40340,11 +40340,11 @@
 37	)	O
 38	from	O
 39	the	O
-40	human	B
+40	human	O
 41	U1	I
-42	-	I
+42	-	O
 43	C	I
-44	protein	I
+44	protein	O
 45	.	O
 
 1	Tumor	B
@@ -40376,7 +40376,7 @@
 9	comparison	O
 10	to	O
 11	the	O
-12	coregulated	O
+12	coregulated	B
 13	PHO5	I
 14	promoter	I
 15	.	O
